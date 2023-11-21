@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "slot": "attack"
+  },
+  {
+    "id": 1,
+    "slot": "special"
+  },
+  {
+    "id": 2,
+    "slot": "cast"
+  },
+  {
+    "id": 3,
+    "slot": "dash"
+  },
+  {
+    "id": 4,
+    "slot": "aid"
+  }
+]

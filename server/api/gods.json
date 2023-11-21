@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "god": "zeus"
+  },
+  {
+    "id": 1,
+    "god": "poseidon"
+  },
+  {
+    "id": 2,
+    "god": "hermes"
+  },
+  {
+    "id": 3,
+    "god": "dionysus"
+  },
+  {
+    "id": 4,
+    "god": "demeter"
+  },
+  {
+    "id": 5,
+    "god": "athena"
+  },
+  {
+    "id": 6,
+    "god": "artemis"
+  },
+  {
+    "id": 7,
+    "god": "ares"
+  },
+  {
+    "id": 8,
+    "god": "aphrodite"
+  }
+]

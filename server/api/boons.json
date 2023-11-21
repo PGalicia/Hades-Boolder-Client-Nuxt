@@ -1,0 +1,6298 @@
+[
+  {
+    "id": 0,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Lightning Strike",
+    "description": "Your Attack emits chain-lightning when you damage a foe.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10"
+        },
+        {
+          "tier": 2,
+          "number": "12.5"
+        },
+        {
+          "tier": 3,
+          "number": "15"
+        },
+        {
+          "tier": 4,
+          "number": "20"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 1,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Thunder Flourish",
+    "description": "Your Special causes a lightning bolt to strike nearby foes.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30"
+        },
+        {
+          "tier": 2,
+          "number": "37.5"
+        },
+        {
+          "tier": 3,
+          "number": "45"
+        },
+        {
+          "tier": 4,
+          "number": "60"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 2,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Electric Shot",
+    "description": "Your Cast is a burst of chain-lightning that bounces between foes.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        },
+        {
+          "tier": 2,
+          "number": "72"
+        },
+        {
+          "tier": 3,
+          "number": "84"
+        },
+        {
+          "tier": 4,
+          "number": "96"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 3,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Thunder Flare",
+    "description": "Your Cast causes a lightning bolt to strike nearby foes.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 4,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Thunder Dash",
+    "description": "Your Dash causes a lightning bolt to strike nearby foes.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10"
+        },
+        {
+          "tier": 2,
+          "number": "13.3"
+        },
+        {
+          "tier": 3,
+          "number": "16.6"
+        },
+        {
+          "tier": 4,
+          "number": "20"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 5,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Zeus' Aid",
+    "description": "Your Call makes lightning strike nearby foes repeatedly for 1.5 Sec.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        },
+        {
+          "tier": 2,
+          "number": "66"
+        },
+        {
+          "tier": 3,
+          "number": "72"
+        },
+        {
+          "tier": 4,
+          "number": "84"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 6,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Heaven's Vengeance",
+    "description": "After you take damage, your foe is struck by lightning.",
+    "stats": {
+      "name": "Revenge Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "80"
+        },
+        {
+          "tier": 2,
+          "number": "104-120"
+        },
+        {
+          "tier": 3,
+          "number": "144-160"
+        },
+        {
+          "tier": 4,
+          "number": "184-200"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 7,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Lightning Reflexes",
+    "description": "After you Dash just before getting hit, a bolt strikes a nearby foes.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20"
+        },
+        {
+          "tier": 2,
+          "number": "30"
+        },
+        {
+          "tier": 3,
+          "number": "40"
+        },
+        {
+          "tier": 4,
+          "number": "50"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 8,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Storm Lightning",
+    "description": "Your chain-lightning effects bounce more times before expiring.",
+    "stats": {
+      "name": "Lightning Bounces",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+2"
+        },
+        {
+          "tier": 2,
+          "number": "+4"
+        },
+        {
+          "tier": 3,
+          "number": "+6"
+        },
+        {
+          "tier": 4,
+          "number": "+8"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          2,
+          0
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 9,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "High Voltage",
+    "description": "Your lightning bolt effects deal damage in a larger area.",
+    "stats": {
+      "name": "Bolt Area of Effect",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+60%"
+        },
+        {
+          "tier": 2,
+          "number": "+72%"
+        },
+        {
+          "tier": 3,
+          "number": "+84%"
+        },
+        {
+          "tier": 4,
+          "number": "+96%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          1,
+          4,
+          5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 10,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Double Strike",
+    "description": "Your lightning bolt effects have a chance to strike twice.",
+    "stats": {
+      "name": "Strike Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "25%"
+        },
+        {
+          "tier": 2,
+          "number": "30%"
+        },
+        {
+          "tier": 3,
+          "number": "35%"
+        },
+        {
+          "tier": 4,
+          "number": "40%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          1,
+          4,
+          5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 11,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Static Discharge",
+    "description": "Your lightning effects also make foes Jolted.",
+    "stats": {
+      "name": "Jolt Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        },
+        {
+          "tier": 2,
+          "number": "78-90"
+        },
+        {
+          "tier": 3,
+          "number": "108-120"
+        },
+        {
+          "tier": 4,
+          "number": "138-150"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 12,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Clouded Judgment",
+    "description": "Your God Gauge charges faster when you deal or take damage.",
+    "stats": {
+      "name": "Faster Wrath Gain",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        },
+        {
+          "tier": 2,
+          "number": "+12%"
+        },
+        {
+          "tier": 3,
+          "number": "+14%"
+        },
+        {
+          "tier": 4,
+          "number": "+16%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "required": 1,
+        "boons": [
+          5,
+          20,
+          53,
+          68,
+          83,
+          98,
+          112,
+          127
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 13,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Billowing Strength",
+    "description": "After using Call, you deal more damage for 15 Sec.",
+    "stats": {
+      "name": "Bonus Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+20%"
+        },
+        {
+          "tier": 2,
+          "number": "+22%"
+        },
+        {
+          "tier": 3,
+          "number": "+24%"
+        },
+        {
+          "tier": 4,
+          "number": "+20%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "required": 1,
+        "boons": [
+          5,
+          20,
+          53,
+          68,
+          83,
+          98,
+          112,
+          127
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 14,
+    "gods": [
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Splitting Bolt",
+    "description": "All your lightning effects create an additional burst.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "40"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 15,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Tempest Strike",
+    "description": "Your Attack deals more damage and knocks foes away.",
+    "stats": {
+      "name": "Attack Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+30%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 16,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Tempest Flourish",
+    "description": "Your Special deals more damage and knocks foes away.",
+    "stats": {
+      "name": "Special Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+70%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 17,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Flood Shot",
+    "description": "Your Cast damages foes in an area and knocks them away.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 18,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Flood Flare",
+    "description": "Your Cast damages foes around you and knocks them away.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 19,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Tidal Dash",
+    "description": "Your Dash damages foes in an area and knocks them away.",
+    "stats": {
+      "name": "Dash Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "35"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 20,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Poseidon's Aid",
+    "description": "Your Call makes you surge into foes while Impervious for 1.2 Sec.",
+    "stats": {
+      "name": "Impact Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "250"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 21,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Typhoon's Fury",
+    "description": "You deal more damage when slamming foes into barriers.",
+    "stats": {
+      "name": "Slam Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "300%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 22,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Hydraulic Might",
+    "description": "Your Attack and Special are stronger the first 10 Sec. in Encounter(s).",
+    "stats": {
+      "name": "Initial Damage Bonus",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+130%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 23,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Ocean's Bounty",
+    "description": "Any Gemstone, Darkness or Obols chamber rewards are worth more.",
+    "stats": {
+      "name": "Reward Bonus",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+50%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 24,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Sunken Treasure",
+    "description": "Gain an assortment of Gemstone, Darkness, Obols and Health.",
+    "stats": {
+      "name": "Reward Bonus",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "Obols (50-70), Health (1-3 food), Darkness (50-100), Nectar (10%), Diamond (0.03%)"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 25,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Razor Shoals",
+    "description": "Using knock-away effects also Rupture foes.",
+    "stats": {
+      "name": "Rupture Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "5 every 0.2 Sec."
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 26,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Boiling Point",
+    "description": "Your God Gauge charges faster when you take damage.",
+    "stats": {
+      "name": "Faster Gauge Gain When Hit",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+40%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "required": 1,
+        "boons": [
+          5,
+          20,
+          53,
+          68,
+          83,
+          98,
+          112,
+          127
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 27,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Breaking Wave",
+    "description": "Slamming foes into walls or corners creates a watery blast in the area.",
+    "stats": {
+      "name": "Stun Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "100"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 28,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Wave Pounding",
+    "description": "Your boons with Knock-Away effects deal bonus damage to bosses.",
+    "stats": {
+      "name": "Bonus Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 29,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Rip Current",
+    "description": "Your Call pulls in foes and the effect lasts longer.",
+    "stats": {
+      "name": "Longer Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+1 sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 30,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Huge Catch",
+    "description": "You have a greater chance to find Fishing Point in each Chamber.",
+    "stats": {
+      "name": "Fish Spawn Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+20%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          23,
+          24
+        ]
+      }
+    ],
+    "notes": [
+      "Can spawn if Conch Shell is equipped"
+    ]
+  },
+  {
+    "id": 31,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Second Wave",
+    "description": "Your knock-away effects shove foes a second time after the first.",
+    "stats": {
+      "name": "Second Knockback Delay",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "0.7 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          21,
+          27
+        ]
+      },
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 32,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Swift Strike",
+    "description": "Your Attack is faster.",
+    "stats": {
+      "name": "Attack Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+12.5%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 33,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Swift Flourish",
+    "description": "Your Special is faster.",
+    "stats": {
+      "name": "Special Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+12.5%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 34,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Flurry Cast",
+    "description": "Your Cast is faster and fully automatic.",
+    "stats": {
+      "name": "Cast Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+20%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf",
+      "Cannot be combined with Aspect of Hera",
+      "Requires the Infernal Soul Mirror Ability"
+    ]
+  },
+  {
+    "id": 35,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Quick Favor",
+    "description": "Your Call charges up automatically.",
+    "stats": {
+      "name": "Auto Gauge Gain",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+1% (every 1.5 sec.)"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "required": 1,
+        "boons": [
+          5,
+          20,
+          53,
+          68,
+          83,
+          98,
+          112,
+          127
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 36,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Hyper Sprint",
+    "description": "After you Dash, become Sturdy and run +100% faster.",
+    "stats": {
+      "name": "Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "0.5 sec"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 37,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Greater Haste",
+    "description": "You move faster.",
+    "stats": {
+      "name": "Movement Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+20%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 38,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Quick Recovery",
+    "description": "After you take damage, quickly Dash to recover up to health lost.",
+    "stats": {
+      "name": "Health Recovered",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 39,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Greater Evasion",
+    "description": "You have a chance to Dodge.",
+    "stats": {
+      "name": "Dodge Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 40,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Greatest Reflex",
+    "description": "You can Dash more time(s) in a row.",
+    "stats": {
+      "name": "Extra Dashes",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+1"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 41,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Second Wind",
+    "description": "After using Call, gain Dodge chance and move speed for 6 Sec.",
+    "stats": {
+      "name": "Bonus Dodge Chance & Move Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+30%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "required": 1,
+        "boons": [
+          5,
+          20,
+          53,
+          68,
+          83,
+          98,
+          112,
+          127
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 42,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Quick Reload",
+    "description": "Foes drop Cast Ammo stuck in them faster.",
+    "stats": {
+      "name": "Drop Time",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "5 Sec"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf",
+      "Cannot be combined with Crystal Beam",
+      "Cannot be combined with Curse of Drowning",
+      "Cannot be combined with Slicing Shot",
+      "Cannot be combined with Trippy shot",
+      "Requires the Infernal Soul Mirror Ability"
+    ]
+  },
+  {
+    "id": 43,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Side Hustle",
+    "description": "Each time you enter a Chamber, gain a bit wealth.",
+    "stats": {
+      "name": "Bonus Wealth per Chamber",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10 Obols"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 44,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Rush Delivery",
+    "description": "You deal bonus damage based on any bonus move speed.",
+    "stats": {
+      "name": "Bonus Damage from Bonus Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 2,
+          "god": "hermes"
+        },
+        "required": 1,
+        "boons": [
+          36,
+          37
+        ]
+      }
+    ],
+    "notes": [
+      "Can spawn if Lambent Plume is equipped"
+    ]
+  },
+  {
+    "id": 45,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Auto Reload",
+    "description": "You regenerate Cast Ammo faster.",
+    "stats": {
+      "name": "Regeneration Time",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "2.75 sec"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Requires the Stygian Soul Mirror Ability"
+    ]
+  },
+  {
+    "id": 46,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Greater Recall",
+    "description": "Your Cast Ammo automatically return to you.",
+    "stats": {
+      "name": "Regeneration Time",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "2.75 sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 2,
+          "god": "hermes"
+        },
+        "required": 1,
+        "boons": [
+          34,
+          42,
+          45
+        ]
+      }
+    ],
+    "notes": [
+      "Requires the Infernal Soul Mirror Ability",
+      "Can spawn if Lambent Plume is equipped"
+    ]
+  },
+  {
+    "id": 47,
+    "gods": [
+      {
+        "id": 2,
+        "god": "hermes"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Bad News",
+    "description": "Your cast deals more damage to foes without Cast Ammo on them.",
+    "stats": {
+      "name": "First shot damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+50%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 2,
+          "god": "hermes"
+        },
+        "required": 1,
+        "boons": [
+          45
+        ]
+      }
+    ],
+    "notes": [
+      "Requires the Stygian Soul Mirror Ability",
+      "Can spawn if Lambent Plume is equipped"
+    ]
+  },
+  {
+    "id": 48,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Drunken Strike",
+    "description": "Your Attack inflicts Hangover.",
+    "stats": {
+      "name": "Hangover Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "4 (every 0.5 sec)"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 49,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Drunken Flourish",
+    "description": "Your Special inflicts Hangover.",
+    "stats": {
+      "name": "Hangover Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "5 (every 0.5 sec)"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 50,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Trippy Shot",
+    "description": "Your Cast lobs a projectile that bursts into Festive Fog.",
+    "stats": {
+      "name": "Blast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "100"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 51,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Trippy Flare",
+    "description": "Your Cast damages foes around you, leaving behind Festive Fog.",
+    "stats": {
+      "name": "Blast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "120"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 52,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Drunken Dash",
+    "description": "Your Dash inflicts foes near you with Hangover.",
+    "stats": {
+      "name": "Hangover Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "2 (every 0.5 sec)"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 53,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Dionysus' Aid",
+    "description": "Your Call inflicts Hangover to foes all around you for 1.5 Sec.",
+    "stats": {
+      "name": "Hangover Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "15 (every 0.5 sec)"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 54,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "After Party",
+    "description": "If your Health is low after Encounters, restore to the threshold.",
+    "stats": {
+      "name": "Life Threshold",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30% Health"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Life Threshold value reduced by Lasting Consequences.",
+      "This boon cannot be upgraded via poms.",
+      "Heroic Rarity only obtainable with Ambrosia Delight."
+    ]
+  },
+  {
+    "id": 55,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Positive Outlook",
+    "description": "Take less damage while at 40% Health or below.",
+    "stats": {
+      "name": "Damage Resistance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 56,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Premium Vintage",
+    "description": "Gain Health when you pick up Nectar. Receive 1 Nectar now.",
+    "stats": {
+      "name": "Life Gain",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20 Health"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unsellable"
+    ]
+  },
+  {
+    "id": 57,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Strong Drink",
+    "description": "Using a Fountain restores all Health and gives you bonus damage.",
+    "stats": {
+      "name": "Bonus Damage per Fountain",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 58,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Bad Influence",
+    "description": "Deal more damage while 3 foes are Hangover-afflicted.",
+    "stats": {
+      "name": "Bonus Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          52,
+          53
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 59,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Numbing Sensation",
+    "description": "Your Hangover effects also make foes move slower.",
+    "stats": {
+      "name": "Speed Reduction",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "15%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          52,
+          53
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 60,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Peer Pressure",
+    "description": "Hangover-afflicted foes contaminate other nearby foes every 4 Sec.",
+    "stats": {
+      "name": "Hangover Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "4 (every 0.5 sec)"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          52
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 61,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "High Tolerance",
+    "description": "Take less damage while standing in Festive Fog.",
+    "stats": {
+      "name": "Damage Resistance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10%-15%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          50,
+          51
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 62,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Black Out",
+    "description": "Hangover-afflicted foes take bonus damage in Festive Fog.",
+    "stats": {
+      "name": "Fog Combo Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+60%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          50
+        ]
+      },
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          53
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 63,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Frost Strike",
+    "description": "Your Attack is stronger and inflicts Chill.",
+    "stats": {
+      "name": "Attack damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+40%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 64,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Frost Flourish",
+    "description": "Your Special is stronger and inflicts Chill.",
+    "stats": {
+      "name": "Special Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+60%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 65,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Crystal Beam",
+    "description": "Your Cast drops a crystal that fires a beam straight ahead for 5 sec.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "8 (every 0.2 sec)"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 66,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Icy Flare",
+    "description": "Your Cast damages foes around you and inflicts Chill.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "70"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 67,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Mistral Dash",
+    "description": "Your Dash shoots a gust ahead that inflicts Chill.",
+    "stats": {
+      "name": "Gust Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "15"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 68,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Demeter's Aid",
+    "description": "Your Call creates a winter vortex for 5 Sec.",
+    "stats": {
+      "name": "Vortex Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10 (every 0.25 sec)"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 69,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Frozen Touch",
+    "description": "After you take damage, damage and completely Chill your foe.",
+    "stats": {
+      "name": "Revenge Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 70,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Rare Crop",
+    "description": "Your Boons become Common, then gain Rarity every 3 Encounter(s).",
+    "stats": {
+      "name": "Random boons affected",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "1"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unsellable",
+      "Once taken, shows which Boons are being cultivated as part of the Boon Description.",
+      "If Zagreus loses the Boon that is being cultivated (via purging or exchange), the Rare Crop effect is essentially lost.",
+      "If taken before the 4th zone, Temple of Styx, each small room before the reward counts as one encounter."
+    ]
+  },
+  {
+    "id": 71,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Ravenous Will",
+    "description": "While you have no Cast Ammo, take 10% less damage and deal more.",
+    "stats": {
+      "name": "Damage bonus",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "This boon cannot be upgraded via poms."
+    ]
+  },
+  {
+    "id": 72,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Nourished Soul",
+    "description": "Any Health effects are more potent. Restore +30% now.",
+    "stats": {
+      "name": "Improved Restoration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unsellable"
+    ]
+  },
+  {
+    "id": 73,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Snow Burst",
+    "description": "Whenever you Cast, damage nearby foes and inflict Chill.",
+    "stats": {
+      "name": "Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "40"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 74,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Arctic Blast",
+    "description": "Applying 10 stacks of Chill causes a blast, clearing the effect.",
+    "stats": {
+      "name": "Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "100"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          63,
+          64,
+          67,
+          68,
+          73
+        ]
+      }
+    ],
+    "notes": [
+      "This boon cannot be upgraded via poms."
+    ]
+  },
+  {
+    "id": 75,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Killing Freeze",
+    "description": "Applying Chill to all enemies causes them to Slow and Decay.",
+    "stats": {
+      "name": "Decay Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20 (every 0.5sec)"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          63,
+          64,
+          67,
+          68,
+          73
+        ]
+      }
+    ],
+    "notes": [
+      "This boon cannot be upgraded via poms."
+    ]
+  },
+  {
+    "id": 76,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Glacial Glare",
+    "description": "Your Cast fires longer and inflicts Chill.",
+    "stats": {
+      "name": "Bonus Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "2 sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          65
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 77,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Winter Harvest",
+    "description": "Chill-affected foes shatter at 10% hp, inflicting Chill nearby.",
+    "stats": {
+      "name": "Shatter Area Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 2,
+        "boons": [
+          71,
+          74,
+          75
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 78,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Divine Strike",
+    "description": "Your Attack is stronger, and can Deflect.",
+    "stats": {
+      "name": "Attack Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+40%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 79,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Divine Flourish",
+    "description": "Your Special is stronger, and can Deflect.",
+    "stats": {
+      "name": "Special Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+60%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 80,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Phalanx Shot",
+    "description": "Your Cast damages foes in a small area, and can Deflect.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "85"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 81,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Phalanx Flare",
+    "description": "Your Cast damages foes around you, and can Deflect.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "80"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 82,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Divine Dash",
+    "description": "Your Dash deals damage and can Deflect.",
+    "stats": {
+      "name": "Dash Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 83,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Athena's Aid",
+    "description": "Your Call briefly makes you Invulnerable and Deflect all attacks.",
+    "stats": {
+      "name": "Effect Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "1.5 Sec"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 84,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Holy Shield",
+    "description": "After you take damage, damage nearby foes and briefly Deflect.",
+    "stats": {
+      "name": "Revenge Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 85,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Bronze Skin",
+    "description": "Resist damage from foes' attacks.",
+    "stats": {
+      "name": "Reduced Damage from Foes",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "5%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 86,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Sure Footing",
+    "description": "Resist damage from Traps.",
+    "stats": {
+      "name": "Reduced Trap Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 87,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Proud Bearing",
+    "description": "You begin each Encounter with your God Gauge partly full.",
+    "stats": {
+      "name": "Starting Gauge",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "required": 1,
+        "boons": [
+          5,
+          20,
+          53,
+          68,
+          83,
+          98,
+          112,
+          127
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 88,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Blinding Flash",
+    "description": "Your abilities that can Deflect also make foes Exposed for 5 Sec.",
+    "stats": {
+      "name": "Bonus Backstab Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+50%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          79,
+          80,
+          82
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 89,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Brilliant Riposte",
+    "description": "When you Deflect attacks, they deal more damage.",
+    "stats": {
+      "name": "Deflect Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+80%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          79,
+          82,
+          84
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 90,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Deathless Stand",
+    "description": "Death Defiance makes you Impervious longer. Replenish 1 charge now.",
+    "stats": {
+      "name": "Effect Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+2 sec"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 91,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Last Stand",
+    "description": "Death Defiance restores more Health than usual. Replenish 1 charge now.",
+    "stats": {
+      "name": "Improved Restoration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 92,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Divine Protection",
+    "description": "You have a barrier that negates incoming damage.",
+    "stats": {
+      "name": "Barrier Cooldown",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          89
+        ]
+      }
+    ],
+    "notes": [
+      "Attacks that are successfully blocked do not remove the barrier"
+    ]
+  },
+  {
+    "id": 93,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Deadly Strike",
+    "description": "Your Attack is stronger, with +15% chance to deal Critical damage.",
+    "stats": {
+      "name": "Attack Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+20%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 94,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Deadly Flourish",
+    "description": "Your Special is stronger, with +20% chance to deal Critical Damage.",
+    "stats": {
+      "name": "Special Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+40%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 95,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "True Shot",
+    "description": "Your Cast seeks foes, with a 10% chance to deal Critical damage.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "70"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unblockable by shield-bearing foes",
+      "Cannot be combined with Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 96,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Hunter's Flare",
+    "description": "Your Cast damages foes around you, with a 10% Critical chance.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "55"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 97,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Hunter Dash",
+    "description": "Your Dash-Strike deals more damage.",
+    "stats": {
+      "name": "Dash Attack Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+50%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Cannot be combined with Aspect of Lucifer"
+    ]
+  },
+  {
+    "id": 98,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Artemis' Aid",
+    "description": "Your Call fires a seeking arrow with +35% Critical chance.",
+    "stats": {
+      "name": "Arrow Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "100%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 99,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Pressure Points",
+    "description": "Any damage you deal has a chance to be Critical.",
+    "stats": {
+      "name": "Bonus Critical Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+3%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 100,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Exit Wounds",
+    "description": "Your foes take damage when your Cast Ammo stuck in them is dislodged.",
+    "stats": {
+      "name": "Dislodge Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "100"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "required": 1,
+        "boons": [
+          5,
+          20,
+          53,
+          68,
+          83,
+          98,
+          112,
+          127
+        ]
+      }
+    ],
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf",
+      "Cannot be combined with Crystal Beam",
+      "Cannot be combined with Slicing Shot",
+      "Cannot be combined with Trippy Shot"
+    ]
+  },
+  {
+    "id": 101,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Hide Breaker",
+    "description": "Your Critical effects deal even more damage to Armor.",
+    "stats": {
+      "name": "Critical Damage Bonus vs. Armor",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "200%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          98,
+          99
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 102,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Clean Kill",
+    "description": "Your Critical effects deal even more damage.",
+    "stats": {
+      "name": "Critical Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+15%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          98,
+          99
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 103,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Hunter Instinct",
+    "description": "Your God Gauge charges faster when you deal Critical damage.",
+    "stats": {
+      "name": "Faster Gauge Gain on Critical",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+0.25%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          99
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 104,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Hunter's Mark",
+    "description": "After you deal Critical damage to a foe, a foe near it is Marked.",
+    "stats": {
+      "name": "Bonus Crit Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+30%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          98,
+          99
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 105,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Support Fire",
+    "description": "After you Cast, or hit with an Attack or Special, fire a seeking arrow.",
+    "stats": {
+      "name": "Projectile Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          97,
+          98,
+          99
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 106,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Fully Loaded",
+    "description": "Gain extra Cast Ammo for your Cast.",
+    "stats": {
+      "name": "Max Ammo",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+2 Cast Ammo"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 2,
+        "boons": [
+          99,
+          100,
+          105
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 107,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Curse of Agony",
+    "description": "Your Attack inflicts Doom.",
+    "stats": {
+      "name": "Curse Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 108,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Curse of Pain",
+    "description": "Your Special inflicts Doom.",
+    "stats": {
+      "name": "Curse Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 109,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Slicing Shot",
+    "description": "Your Cast sends a Blade Rift hurling ahead.",
+    "stats": {
+      "name": "Rift Damage per Hit",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 110,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Slicing Flare",
+    "description": "Your Cast sends a large Blade Rift hurling ahead for a brief time.",
+    "stats": {
+      "name": "Rift Damage per Hit",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 111,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Blade Dash",
+    "description": "Your Dash creates a Blade Rift where you started.",
+    "stats": {
+      "name": "Rift Damage per Hit",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "5"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 112,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Ares' Aid",
+    "description": "Your Call turns you into an Impervious Blade Rift for 1.2 Sec.",
+    "stats": {
+      "name": "Rift Damage per Hit",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 113,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Curse of Vengeance",
+    "description": "After you take damage, inflict Doom on surrounding foes.",
+    "stats": {
+      "name": "Revenge Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "90"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 114,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Urge to Kill",
+    "description": "Your Attack and Cast deal more damage.",
+    "stats": {
+      "name": "Attack and Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+8%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 115,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Battle Rage",
+    "description": "After slaying a foe, your next Attack or Special deals more damage.",
+    "stats": {
+      "name": "Damage Bonus",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+100%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 116,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Blood Frenzy",
+    "description": "After using Death Defiance, deal more damage that encounter.",
+    "stats": {
+      "name": "Damage Bonus",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+20%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 117,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Black Metal",
+    "description": "Your Blade Rift powers deal damage in a wider area.",
+    "stats": {
+      "name": "Bonus Area of Effect",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+20%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          109,
+          110,
+          111,
+          112
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 118,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Engulfing Vortex",
+    "description": "Your Blade Rift effects last longer and pull foes in.",
+    "stats": {
+      "name": "Rift Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+0.2 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          109,
+          110,
+          111,
+          112
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 119,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Dire Misfortune",
+    "description": "Your Doom effects deal more damage when applied multiple times.",
+    "stats": {
+      "name": "Bonus Damage per Curse",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          107,
+          108
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 120,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Impending Doom",
+    "description": "Your Doom effects deal more damage, after +0.5 Sec.",
+    "stats": {
+      "name": "Bonus Doom Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+60%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          107,
+          108,
+          113
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 121,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 1,
+      "rarity": "legendary"
+    },
+    "name": "Vicious Cycle",
+    "description": "Your Blade Rift effects deal more damage for each consecutive hit.",
+    "stats": {
+      "name": "Damage Increase per Hit",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "2"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          117,
+          118
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 122,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 0,
+      "slot": "attack"
+    },
+    "name": "Heartbreak Strike",
+    "description": "Your Attack deals more damage and inflicts Weak.",
+    "stats": {
+      "name": "Attack Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+50%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 123,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 1,
+      "slot": "special"
+    },
+    "name": "Heartbreak Flourish",
+    "description": "Your Special deals more damage and inflicts Weak.",
+    "stats": {
+      "name": "Special Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+80%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 124,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Crush Shot",
+    "description": "Your Cast is a wide, short-range blast that inflicts Weak.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "90"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 125,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 2,
+      "slot": "cast"
+    },
+    "name": "Passion Flare",
+    "description": "Your Cast damages foes around you and inflicts Weak.",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "80"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": [
+      "Unique to Aspect of Beowulf"
+    ]
+  },
+  {
+    "id": 126,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 3,
+      "slot": "dash"
+    },
+    "name": "Passion Dash",
+    "description": "Your Dash inflicts damage where you end up, inflicting Weak.",
+    "stats": {
+      "name": "Dash Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 127,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "slot": {
+      "id": 4,
+      "slot": "aid"
+    },
+    "name": "Aphrodite's Aid",
+    "description": "Your Call fires a seeking projectile that inflicts Charm.",
+    "stats": {
+      "name": "Charm Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "5 Sec"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 128,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Dying Lament",
+    "description": "When foes are slain, they damage nearby foes and inflict Weak.",
+    "stats": {
+      "name": "Death Blast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "40"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 129,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Wave of Despair",
+    "description": "After you take damage, damage nearby foes and inflict Weak.",
+    "stats": {
+      "name": "Revenge Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 130,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Different League",
+    "description": "Resist some damage from nearby foes' attacks.",
+    "stats": {
+      "name": "Reduced Damage from Foes",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 131,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Life Affirmation",
+    "description": "Any Health or Health chamber rewards are worth more.",
+    "stats": {
+      "name": "Reward Value",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+30%"
+        }
+      ]
+    },
+    "prereqs": [],
+    "notes": []
+  },
+  {
+    "id": 132,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Empty Inside",
+    "description": "Your Weak effects have a longer duration.",
+    "stats": {
+      "name": "Weak Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+5 sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 133,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Sweet Surrender",
+    "description": "Weak-afflicted foes are also more susceptible to damage.",
+    "stats": {
+      "name": "Damage vs. Weak",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 134,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Broken Resolve",
+    "description": "Your Weak effects are more potent.",
+    "stats": {
+      "name": "Weak Damage Reduction",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 135,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Blown Kiss",
+    "description": "Your Cast shoots farther and is stronger against undamaged foes.",
+    "stats": {
+      "name": "First-Hit Bonus Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+50%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          124
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 136,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      }
+    ],
+    "rarity": {
+      "id": 0,
+      "rarity": "common"
+    },
+    "name": "Unhealthy Fixation",
+    "description": "Your Weak effects also have a 15% chance to Charm foes.",
+    "stats": {
+      "name": "Charm Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "4 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126
+        ]
+      },
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          132,
+          133,
+          134
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 137,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      },
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Curse of Longing",
+    "description": "Your Doom effects continuously strike Weak foes.",
+    "stats": {
+      "name": "Successive Hit Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126
+        ]
+      },
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          107,
+          108
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 138,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      },
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Deadly Reversal",
+    "description": "After you Deflect, briefly gain +20% chance to deal Critical damage.",
+    "stats": {
+      "name": "Critical Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "2 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          96,
+          98
+        ]
+      },
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          79
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 139,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      },
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Exclusive Access",
+    "description": "Any Boons you find have superior effects.",
+    "stats": {
+      "name": "Minimum Boon Rarity",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "Epic"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ]
+      },
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 140,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      },
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Heart Rend",
+    "description": "Your critical hits do more damage to Weak enemies.",
+    "stats": {
+      "name": "Bonus Critical Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+150%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126
+        ]
+      },
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 141,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      },
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Hunting Blades",
+    "description": "Your Cast creates a faster Blade Rift that seeks the nearest foe.",
+    "stats": {
+      "name": "Seek Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3.3 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          109
+        ]
+      },
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          97,
+          98
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 142,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      },
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Lightning Rod",
+    "description": "Your collectible Bloodstones strike nearby foes every 1 Sec.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "70"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          96,
+          98
+        ]
+      },
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 143,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      },
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Lightning Phalanx",
+    "description": "Your Cast bounces between enemies.",
+    "stats": {
+      "name": "Max Bounces",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          80
+        ]
+      },
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 144,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      },
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Low Tolerance",
+    "description": "Your Hangover effects can stack even more times against Weak foes.",
+    "stats": {
+      "name": "Max Stacks vs Weak",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+3"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126
+        ]
+      },
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          52,
+          53
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 145,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      },
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Merciful End",
+    "description": "Your attacks that can Deflect immediately activate Doom effects.",
+    "stats": {
+      "name": "Doom Combo Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "40"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          107,
+          108
+        ]
+      },
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          79
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 146,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      },
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Scintillating Feast",
+    "description": "Your Festive Fog effects also deal lightning damage periodically.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "60"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          50,
+          51,
+          61
+        ]
+      },
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 147,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      },
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Parting Shot",
+    "description": "Your Cast gains any bonuses you have for striking foes from behind.",
+    "stats": {
+      "name": "Bonus Backstab Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+25%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126,
+          127
+        ]
+      },
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          79,
+          80,
+          81,
+          82
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 148,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      },
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Sweet Nectar",
+    "description": "All Poms of Power you find are more effective.",
+    "stats": {
+      "name": "Pom Level Increase",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "1"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126,
+          127
+        ]
+      },
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 149,
+    "gods": [
+      {
+        "id": 1,
+        "god": "poseidon"
+      },
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Sea Storm",
+    "description": "Your knock-away effects also cause foes to be struck by lightning.",
+    "stats": {
+      "name": "Lightning Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "40"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      },
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 150,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      },
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Vengeful Mood",
+    "description": "Your Revenge effects sometimes occur without taking damage.",
+    "stats": {
+      "name": "Auto-Revenge Rate",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          108,
+          109,
+          113
+        ]
+      },
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          0,
+          1,
+          2,
+          4,
+          6
+        ]
+      },
+      {
+        "required": 1,
+        "boons": [
+          6,
+          69,
+          84,
+          113,
+          129
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 151,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      },
+      {
+        "id": 3,
+        "god": "dionysus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Ice Wine",
+    "description": "Your Cast blasts an area with freezing Festive Fog that inflicts Chill.",
+    "stats": {
+      "name": "Blast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+30%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          63,
+          64,
+          67,
+          68
+        ]
+      },
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          50,
+          51
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 152,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      },
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Crystal Clarity",
+    "description": "Your Cast is stronger and tracks foes more effectively.",
+    "stats": {
+      "name": "Beam Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+10%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          65
+        ]
+      },
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          97,
+          98
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 153,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      },
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Blizzard Shot",
+    "description": "Your Cast moves slowly, piercing foes and firing shards around it.",
+    "stats": {
+      "name": "Shard Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "40"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          63,
+          64,
+          67,
+          68
+        ]
+      },
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          17
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 154,
+    "gods": [
+      {
+        "id": 4,
+        "god": "demeter"
+      },
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Cold Fusion",
+    "description": "Your Jolted effects do not expire when foes attack.",
+    "stats": {
+      "name": "Jolted Duration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          63,
+          64,
+          67,
+          68
+        ]
+      },
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          11
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 155,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      },
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Unshakable Mettle",
+    "description": "You cannot be stunned, and resist some damage from Bosses",
+    "stats": {
+      "name": "Boss Damage Reduction",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          82
+        ]
+      },
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          17,
+          19
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 156,
+    "gods": [
+      {
+        "id": 6,
+        "god": "artemis"
+      },
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Mirage Shot",
+    "description": "Your Cast fires a second projectile, though it has reduced damage.",
+    "stats": {
+      "name": "Secondary Shot Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          96,
+          98
+        ]
+      },
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          15,
+          16,
+          17,
+          19,
+          20
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 157,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      },
+      {
+        "id": 1,
+        "god": "poseidon"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Curse of Drowning",
+    "description": "Your Cast is a pulse that deals damage to foes around you.",
+    "stats": {
+      "name": "Pulses per Cast",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          107,
+          108,
+          111,
+          112
+        ]
+      },
+      {
+        "god": {
+          "id": 1,
+          "god": "poseidon"
+        },
+        "required": 1,
+        "boons": [
+          17
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 158,
+    "gods": [
+      {
+        "id": 5,
+        "god": "athena"
+      },
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Stubborn Roots",
+    "description": "While you have no Death/Stubborn Defiance, your Life slowly recovers.",
+    "stats": {
+      "name": "Life Regeneration",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "1 Life (every 0.8 Sec.)"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          82,
+          83
+        ]
+      },
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          63,
+          64,
+          68
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 159,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      },
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Cold Embrace",
+    "description": "Your Cast crystal fires its beam directly at you for +4 Sec",
+    "stats": {
+      "name": "Bonus Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+30%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          126,
+          127
+        ]
+      },
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          65
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 160,
+    "gods": [
+      {
+        "id": 8,
+        "god": "aphrodite"
+      },
+      {
+        "id": 0,
+        "god": "zeus"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Smoldering Air",
+    "description": "Your God Gauge charges up automatically, but is capped at 25%",
+    "stats": {
+      "name": "Auto Gauge Gain",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "1%(every 0.2 Sec)"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 8,
+          "god": "aphrodite"
+        },
+        "required": 1,
+        "boons": [
+          122,
+          123,
+          124,
+          126,
+          127
+        ]
+      },
+      {
+        "god": {
+          "id": 0,
+          "god": "zeus"
+        },
+        "required": 1,
+        "boons": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 161,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      },
+      {
+        "id": 7,
+        "god": "ares"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Curse of Nausea",
+    "description": "Your Hangover effects deal damage faster.",
+    "stats": {
+      "name": "Hangover damage rate",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "0.3 Sec"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          52
+        ]
+      },
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          107,
+          108,
+          113
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 162,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      },
+      {
+        "id": 5,
+        "god": "athena"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Calculated Risk",
+    "description": "Your foes' ranged-attack projectiles are slower.",
+    "stats": {
+      "name": "Foe Projectile Speed Reduction",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+50%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          52,
+          53
+        ]
+      },
+      {
+        "god": {
+          "id": 5,
+          "god": "athena"
+        },
+        "required": 1,
+        "boons": [
+          78,
+          79,
+          82,
+          83
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 163,
+    "gods": [
+      {
+        "id": 7,
+        "god": "ares"
+      },
+      {
+        "id": 4,
+        "god": "demeter"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Freezing Vortex",
+    "description": "Your Cast inflicts Chill, but is smaller and moves slower.",
+    "stats": {
+      "name": "Blade Rift size",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "-15%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 7,
+          "god": "ares"
+        },
+        "required": 1,
+        "boons": [
+          109,
+          110
+        ]
+      },
+      {
+        "god": {
+          "id": 4,
+          "god": "demeter"
+        },
+        "required": 1,
+        "boons": [
+          63,
+          64,
+          67,
+          68
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": 164,
+    "gods": [
+      {
+        "id": 3,
+        "god": "dionysus"
+      },
+      {
+        "id": 6,
+        "god": "artemis"
+      }
+    ],
+    "rarity": {
+      "id": 2,
+      "rarity": "duo"
+    },
+    "name": "Splitting Headache",
+    "description": "Hangover-afflicted foes are more likely to take Critical damage.",
+    "stats": {
+      "name": "Bonus Critical Chance per Hangover Stack",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "+1.5%"
+        }
+      ]
+    },
+    "prereqs": [
+      {
+        "god": {
+          "id": 3,
+          "god": "dionysus"
+        },
+        "required": 1,
+        "boons": [
+          48,
+          49,
+          52,
+          53
+        ]
+      },
+      {
+        "god": {
+          "id": 6,
+          "god": "artemis"
+        },
+        "required": 1,
+        "boons": [
+          93,
+          94,
+          95,
+          98
+        ]
+      }
+    ],
+    "notes": []
+  }
+]
