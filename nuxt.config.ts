@@ -23,5 +23,12 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/eslint-module',
     '@pinia/nuxt'
-  ]
+  ],
+  nitro: {
+    preset: 'firebase',
+    firebase: {
+      gen: 2,
+      nodeVersion: '18'
+    }
+  }
 })

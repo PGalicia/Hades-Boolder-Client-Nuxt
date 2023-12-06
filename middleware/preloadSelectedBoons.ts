@@ -3,16 +3,32 @@ import { QUERY_PARAM_BOONS } from '@/constants/Settings'
 import { useBoonStore } from '@/stores/boons'
 import { useSettingStore } from '@/stores/settings'
 
+import type { BoonType } from '@/types/BoonType'
+import type { GodType } from '@/types/GodType'
+
 /**
  * Add selectedBoon to store if there's any in the query param
  */
-export default defineNuxtRouteMiddleware(({ query: toQuery }) => {
+export default defineNuxtRouteMiddleware(async ({ query: toQuery }) => {
   // Grab the necessary functions from the store
-  const { boons, getBoonById, addToSelectedBoons, doesBoonMeetPreqs } = useBoonStore()
+  const { boons, gods } = storeToRefs(useBoonStore())
+  const { getBoonById, addToSelectedBoons, doesBoonMeetPreqs } = useBoonStore()
   const { didPageRender } = storeToRefs(useSettingStore())
 
-  // console.log('boons', boons)
-  if (boons.length === 0) {
+  // Grab all boons and gods
+  const { data: allBoons } = await useFetch<BoonType[]>('/api/boons')
+  const { data: allGods } = await useFetch<GodType[]>('/api/gods')
+
+  if (allBoons.value) {
+    boons.value = allBoons.value
+  }
+
+  if (allGods.value) {
+    gods.value = allGods.value
+  }
+
+  // If boons does not exist, throw an error
+  if (boons.value.length === 0) {
     throw createError({
       statusCode: 500,
       statusMessage: 'Something went wrong'

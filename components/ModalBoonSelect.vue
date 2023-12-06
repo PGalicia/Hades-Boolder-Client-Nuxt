@@ -53,11 +53,6 @@ function handleBoonSelection (chosenBoon: BoonType) {
   selectedBoon.value = chosenBoon
 }
 
-// function handleClosingModal () {
-//   // Close modal
-//   emit('closeModal')
-// }
-
 function handleBoonAddition () {
   // If there's no selectedBoon, return
   if (!selectedBoon.value) {
@@ -125,18 +120,18 @@ function handleBoonAddition () {
             'c-modal-boon__boon--disabled': !doesBoonMeetPreqs(boon),
             'c-modal-boon__boon--chosen': selectedBoon && selectedBoon.id === boon.id
           }"
-          @click="handleBoonSelection(boon)"
+          @click="handleBoonSelection(boon); handleBoonAddition()"
         >
           <BoonCard :boon="boon" />
         </div>
       </div>
-      <div class="py-8 px-4 flex justify-center bg-white w-full box-border sticky bottom-0 left-0 z-50 shadow-inner">
+      <!-- <div class="py-8 px-4 flex justify-center bg-white w-full box-border sticky bottom-0 left-0 z-50 shadow-inner">
         <ButtonMain
           button-text="Add Boon"
           :is-button-disabled="!selectedBoon"
           @click="handleBoonAddition"
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -145,9 +140,11 @@ function handleBoonAddition () {
 .c-modal-boon {
   @media (max-width: 500px) {
     .c-modal-boon__main {
+      position: fixed;
       height: 100%;
       top: 0;
       left: 0;
+      bottom: 0;
       transform: none;
       border-radius: 0;
     }
@@ -170,10 +167,12 @@ function handleBoonAddition () {
   &__boon--disabled::before {
     position: absolute;
     content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    height: 100%;
+    width: 100%;
     z-index: 1;
     border-radius: 10px;
   }

@@ -24,10 +24,6 @@ function _doGodsArrayMatch (arr1: GodType[], arr2: GodType[]): boolean {
   return true
 };
 
-// Grab all boons and gods
-const allBoons = await $fetch<BoonType[]>('/api/boons')
-const allGods = await $fetch<GodType[]>('/api/gods')
-
 // export const useBoonStore = defineStore('boon', async () => {
 export const useBoonStore = defineStore('boon', () => {
   /**
@@ -36,14 +32,6 @@ export const useBoonStore = defineStore('boon', () => {
   const boons = ref<BoonType[]>([])
   const gods = ref<GodType[]>([])
   const selectedBoonsIds = ref<number[]>([])
-
-  if (allBoons) {
-    boons.value = allBoons
-  }
-
-  if (allGods) {
-    gods.value = allGods
-  }
 
   /**
    * Actions

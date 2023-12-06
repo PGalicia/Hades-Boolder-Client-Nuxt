@@ -23,7 +23,7 @@ const props = defineProps({
 
 <template>
   <img
-    :src="`_nuxt/assets/icons/gods/${props.godName}.png`"
+    :src="`/icons/gods/${props.godName}.png`"
     :alt="`${capitalizeWord(props.godName)} image`"
   >
 </template>
