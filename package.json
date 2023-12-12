@@ -15,7 +15,6 @@
     "@nuxtjs/eslint-module": "^4.1.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.54.0",
-    "firebase-functions": "^4.5.0",
     "nuxt": "^3.8.1",
     "postcss": "^8.4.31",
     "sass": "^1.69.5",
