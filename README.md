@@ -1,4 +1,5 @@
 # Hader Boon Builder
+_Currently working on v2_
 
 ### Description:
 A web application that allows you to share your builds for Supergiant's game: Hades.
