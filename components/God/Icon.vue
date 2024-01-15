@@ -15,7 +15,7 @@ const props = defineProps({
     // Check that godName is lowercase and that it is a valid god
     validator: (godName: string): boolean => {
       return godName === godName.toLowerCase() &&
-      useBoonStore().gods.some(god => god.god === godName)
+        useBoonStore().gods.some(god => god.god === godName)
     }
   }
 })

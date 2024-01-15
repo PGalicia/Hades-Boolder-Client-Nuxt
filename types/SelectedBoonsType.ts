@@ -1,7 +1,6 @@
-import type { GodType } from '@/types/GodType'
 import type { BoonType } from '@/types/BoonType'
 
 export type SelectedBoonsType = {
-  gods: GodType[],
+  godName: string,
   boons: BoonType[]
 }

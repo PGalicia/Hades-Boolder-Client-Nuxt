@@ -1,0 +1,770 @@
+[
+  {
+    "id": 0,
+    "type": "weapon",
+    "name": "Aspect of Zagreus",
+    "categoryId": 0,
+    "description": "The form in which the blade of the underworld first revealed itself.",
+    "stats": {
+      "name": "Bonus Attack Speed & Move Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3%"
+        },
+        {
+          "tier": 2,
+          "number": "6%"
+        },
+        {
+          "tier": 3,
+          "number": "9%"
+        },
+        {
+          "tier": 4,
+          "number": "12%"
+        },
+        {
+          "tier": 5,
+          "number": "15%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 1,
+    "name": "Aspect of Nemesis",
+    "categoryId": 0,
+    "description": "For 3 Sec. after your Special, your Attack may deal Critical damage.",
+    "stats": {
+      "name": "Bonus Critical Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "15%"
+        },
+        {
+          "tier": 2,
+          "number": "19%"
+        },
+        {
+          "tier": 3,
+          "number": "22%"
+        },
+        {
+          "tier": 4,
+          "number": "26%"
+        },
+        {
+          "tier": 5,
+          "number": "30%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 2,
+    "name": "Aspect of Poseidon",
+    "categoryId": 0,
+    "description": "Your Special dislodges Cast Ammo from foes",
+    "stats": {
+      "name": "Cast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10%"
+        },
+        {
+          "tier": 2,
+          "number": "20%"
+        },
+        {
+          "tier": 3,
+          "number": "30%"
+        },
+        {
+          "tier": 4,
+          "number": "40%"
+        },
+        {
+          "tier": 5,
+          "number": "50%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 3,
+    "name": "Aspect of Arthur",
+    "categoryId": 0,
+    "description": "You have Holy Excalibur, and +50 Health to your Life Total.",
+    "stats": {
+      "name": "Aura Damage Reduction",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20%"
+        },
+        {
+          "tier": 2,
+          "number": "25%"
+        },
+        {
+          "tier": 3,
+          "number": "30%"
+        },
+        {
+          "tier": 4,
+          "number": "35%"
+        },
+        {
+          "tier": 5,
+          "number": "40%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 4,
+    "name": "Aspect of Zagreus",
+    "categoryId": 1,
+    "description": "The form in which the eternal spear first revealed itself.",
+    "stats": {
+      "name": "Special Damage, Range, & Speed",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10%"
+        },
+        {
+          "tier": 2,
+          "number": "14%"
+        },
+        {
+          "tier": 3,
+          "number": "18%"
+        },
+        {
+          "tier": 4,
+          "number": "22%"
+        },
+        {
+          "tier": 5,
+          "number": "25%"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "type": "weapon",
+    "name": "Aspect of Achilles",
+    "categoryId": 1,
+    "description": "After your Special, you can retrieve your Spear with Raging Rush.",
+    "stats": {
+      "name": "Post-Rush Bonus Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50%"
+        },
+        {
+          "tier": 2,
+          "number": "75%"
+        },
+        {
+          "tier": 3,
+          "number": "100%"
+        },
+        {
+          "tier": 4,
+          "number": "125%"
+        },
+        {
+          "tier": 5,
+          "number": "150%"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "type": "weapon",
+    "name": "Aspect of Hades",
+    "categoryId": 1,
+    "description": "Your Spin Attack becomes Punishing Sweep.",
+    "stats": {
+      "name": "Punishing Bonus Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30%"
+        },
+        {
+          "tier": 2,
+          "number": "60%"
+        },
+        {
+          "tier": 3,
+          "number": "90%"
+        },
+        {
+          "tier": 4,
+          "number": "120%"
+        },
+        {
+          "tier": 5,
+          "number": "150%"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "type": "weapon",
+    "name": "Aspect of Guan Yu",
+    "categoryId": 1,
+    "description": "You have the Frost Fair Blade*, but your life and healing are reduced.",
+    "stats": {
+      "name": "Life Total & Life Gain",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "-70%"
+        },
+        {
+          "tier": 2,
+          "number": "-65%"
+        },
+        {
+          "tier": 3,
+          "number": "-60%"
+        },
+        {
+          "tier": 4,
+          "number": "-55%"
+        },
+        {
+          "tier": 5,
+          "number": "-50%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 8,
+    "name": "Aspect of Zagreus",
+    "categoryId": 2,
+    "description": "The form in which the shield of chaos first revealed itself.",
+    "stats": {
+      "name": "Attack & Dash-Strike Base Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3"
+        },
+        {
+          "tier": 2,
+          "number": "6"
+        },
+        {
+          "tier": 3,
+          "number": "9"
+        },
+        {
+          "tier": 4,
+          "number": "12"
+        },
+        {
+          "tier": 5,
+          "number": "15"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "type": "weapon",
+    "name": "Aspect of Chaos",
+    "categoryId": 2,
+    "description": "After you Bull Rush, your next Special throws multiple shields.",
+    "stats": {
+      "name": "Bonus Shields Thrown",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "1"
+        },
+        {
+          "tier": 2,
+          "number": "2"
+        },
+        {
+          "tier": 3,
+          "number": "3"
+        },
+        {
+          "tier": 4,
+          "number": "4"
+        },
+        {
+          "tier": 5,
+          "number": "5"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "type": "weapon",
+    "name": "Aspect of Zeus",
+    "categoryId": 2,
+    "description": "Your Special is replaced with the Blitz Disc.",
+    "stats": {
+      "name": "Blitz Disc Base Damage per Hit",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "8"
+        },
+        {
+          "tier": 2,
+          "number": "13"
+        },
+        {
+          "tier": 3,
+          "number": "19"
+        },
+        {
+          "tier": 4,
+          "number": "24"
+        },
+        {
+          "tier": 5,
+          "number": "30"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "type": "weapon",
+    "name": "Aspect of Beowulf",
+    "categoryId": 2,
+    "description": "You have Naegling's Board but take +10% damage",
+    "stats": {
+      "name": "Dragon Rush Bonus Damage & Area",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "20%"
+        },
+        {
+          "tier": 2,
+          "number": "40%"
+        },
+        {
+          "tier": 3,
+          "number": "60%"
+        },
+        {
+          "tier": 4,
+          "number": "80%"
+        },
+        {
+          "tier": 5,
+          "number": "100%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 12,
+    "name": "Aspect of Zagreus",
+    "categoryId": 3,
+    "description": "The form in which the heart-seeking bow first revealed itself.",
+    "stats": {
+      "name": "Critical Attack Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "3%"
+        },
+        {
+          "tier": 2,
+          "number": "6%"
+        },
+        {
+          "tier": 3,
+          "number": "9%"
+        },
+        {
+          "tier": 4,
+          "number": "12%"
+        },
+        {
+          "tier": 5,
+          "number": "15%"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "type": "weapon",
+    "name": "Aspect of Chiron",
+    "categoryId": 3,
+    "description": "Your Special automatically seeks the foe last struck by your Attack.",
+    "stats": {
+      "name": "Max Shots per Special",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "4"
+        },
+        {
+          "tier": 2,
+          "number": "5"
+        },
+        {
+          "tier": 3,
+          "number": "6"
+        },
+        {
+          "tier": 4,
+          "number": "7"
+        },
+        {
+          "tier": 5,
+          "number": "8"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "type": "weapon",
+    "name": "Aspect of Hera",
+    "categoryId": 3,
+    "description": "Your Cast Ammo loads into your next Attack, firing on impact.",
+    "stats": {
+      "name": "Ammo Drop Time",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10s"
+        },
+        {
+          "tier": 2,
+          "number": "8s"
+        },
+        {
+          "tier": 3,
+          "number": "6.67s"
+        },
+        {
+          "tier": 4,
+          "number": "6.15s"
+        },
+        {
+          "tier": 5,
+          "number": "5s"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "type": "weapon",
+    "name": "Aspect of Rama",
+    "categoryId": 3,
+    "description": "You have Celestial Sharanga, which can cause Shared Suffering.",
+    "stats": {
+      "name": "Shared Suffering Damage:",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "30%"
+        },
+        {
+          "tier": 2,
+          "number": "38%"
+        },
+        {
+          "tier": 3,
+          "number": "45%"
+        },
+        {
+          "tier": 4,
+          "number": "53%"
+        },
+        {
+          "tier": 5,
+          "number": "60%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 16,
+    "name": "Aspect of Zagreus",
+    "categoryId": 4,
+    "description": "The form in which the Twin Fists first revealed themselves.",
+    "stats": {
+      "name": "Dodge Chance",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "5%"
+        },
+        {
+          "tier": 2,
+          "number": "8%"
+        },
+        {
+          "tier": 3,
+          "number": "10%"
+        },
+        {
+          "tier": 4,
+          "number": "13%"
+        },
+        {
+          "tier": 5,
+          "number": "15%"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "type": "weapon",
+    "name": "Aspect of Talos",
+    "categoryId": 4,
+    "description": "Your Special becomes Magnetic Cutter; its pull deals 20 damage.",
+    "stats": {
+      "name": "Magnetic Attack & Cast Bonus",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "10%"
+        },
+        {
+          "tier": 2,
+          "number": "20%"
+        },
+        {
+          "tier": 3,
+          "number": "30%"
+        },
+        {
+          "tier": 4,
+          "number": "40%"
+        },
+        {
+          "tier": 5,
+          "number": "50%"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "type": "weapon",
+    "name": "Aspect of Demeter",
+    "categoryId": 4,
+    "description": "After landing 12 strikes, your next Special hits more times.",
+    "stats": {
+      "name": "Bonus Special Hits",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "1"
+        },
+        {
+          "tier": 2,
+          "number": "2"
+        },
+        {
+          "tier": 3,
+          "number": "3"
+        },
+        {
+          "tier": 4,
+          "number": "4"
+        },
+        {
+          "tier": 5,
+          "number": "5"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "type": "weapon",
+    "name": "Aspect of Gilgamesh",
+    "categoryId": 4,
+    "description": "You have the Claws of Enkidu, whose Dash-Upper can Maim foes.",
+    "stats": {
+      "name": "Maim Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "100"
+        },
+        {
+          "tier": 2,
+          "number": "175"
+        },
+        {
+          "tier": 3,
+          "number": "250"
+        },
+        {
+          "tier": 4,
+          "number": "325"
+        },
+        {
+          "tier": 5,
+          "number": "400"
+        }
+      ]
+    }
+  },
+  {
+    "type": "weapon",
+    "id": 20,
+    "name": "Aspect of Zagreus",
+    "categoryId": 5,
+    "description": "The form in which the Adamant Rail first revealed itself.",
+    "stats": {
+      "name": "Bonus Max Ammo",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "4"
+        },
+        {
+          "tier": 2,
+          "number": "6"
+        },
+        {
+          "tier": 3,
+          "number": "8"
+        },
+        {
+          "tier": 4,
+          "number": "10"
+        },
+        {
+          "tier": 5,
+          "number": "12"
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "type": "weapon",
+    "name": "Aspect of Eris",
+    "categoryId": 5,
+    "description": "For 4 seconds after absorbing your Special's blast, deal more damage.",
+    "stats": {
+      "name": "Bonus Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "15%"
+        },
+        {
+          "tier": 2,
+          "number": "30%"
+        },
+        {
+          "tier": 3,
+          "number": "45%"
+        },
+        {
+          "tier": 4,
+          "number": "60%"
+        },
+        {
+          "tier": 5,
+          "number": "75%"
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "type": "weapon",
+    "name": "Aspect of Hestia",
+    "categoryId": 5,
+    "description": "After you manually Reload, your next shot is empowered.",
+    "stats": {
+      "name": "Empowered Shot Base Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50"
+        },
+        {
+          "tier": 2,
+          "number": "75"
+        },
+        {
+          "tier": 3,
+          "number": "100"
+        },
+        {
+          "tier": 4,
+          "number": "125"
+        },
+        {
+          "tier": 5,
+          "number": "150"
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "type": "weapon",
+    "name": "Aspect of Lucifer",
+    "categoryId": 5,
+    "description": "You have Igneus Eden, which launches volatile Hellfire.",
+    "stats": {
+      "name": "Hellfire Blast Damage",
+      "tiers": [
+        {
+          "tier": 1,
+          "number": "50"
+        },
+        {
+          "tier": 2,
+          "number": "63"
+        },
+        {
+          "tier": 3,
+          "number": "75"
+        },
+        {
+          "tier": 4,
+          "number": "88"
+        },
+        {
+          "tier": 5,
+          "number": "100"
+        }
+      ]
+    }
+  }
+]

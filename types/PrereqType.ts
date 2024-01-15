@@ -1,6 +1,6 @@
 import type { GodType } from '@/types/GodType'
 
-export type PrereqType = {
+export type BoonPrereqType = {
   god: GodType | null,
   required: number,
   boons: number[]

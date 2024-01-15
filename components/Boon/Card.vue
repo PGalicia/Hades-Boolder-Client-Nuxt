@@ -67,13 +67,13 @@ const props = defineProps({
         </div>
       </div>
 
-      <!-- Prereqs -->
+      <!-- Boon Prereqs -->
       <div
-        v-if="props.boon.prereqs.length > 0"
+        v-if="props.boon.boonPrereqs.length > 0"
         class="grid-cols-2 text-sm grid mt-2 gap-x-0 gap-y-4 py-4 px-0"
       >
         <div
-          v-for="(prepreq, index) in props.boon.prereqs"
+          v-for="(prepreq, index) in props.boon.boonPrereqs"
           :key="index"
         >
           <div class="pb-2 flex items-center font-bold">

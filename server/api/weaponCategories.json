@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "type": "sword",
+    "name": "stygius"
+  },
+  {
+    "id": 1,
+    "type": "spear",
+    "name": "varatha"
+  },
+  {
+    "id": 2,
+    "type": "shield",
+    "name": "aegis"
+  },
+  {
+    "id": 3,
+    "type": "bow",
+    "name": "coronacht"
+  },
+  {
+    "id": 4,
+    "type": "twin fists",
+    "name": "malphon"
+  },
+  {
+    "id": 5,
+    "type": "adamant rail",
+    "name": "exagryph"
+  }
+]

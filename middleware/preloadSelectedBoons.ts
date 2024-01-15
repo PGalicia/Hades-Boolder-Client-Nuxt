@@ -1,23 +1,34 @@
-import { QUERY_PARAM_BOONS } from '@/constants/Settings'
+/**
+ * Imports
+ */
+// Constants
+import { QUERY_PARAM_BOONS, QUERY_PARAM_WEAPON } from '@/constants/Settings'
 
+// Store
 import { useBoonStore } from '@/stores/boons'
 import { useSettingStore } from '@/stores/settings'
 
+// Types
 import type { BoonType } from '@/types/BoonType'
 import type { GodType } from '@/types/GodType'
+import type { WeaponCategoriesType, WeaponType } from '@/types/WeaponType'
+import type { SlotType } from '@/types/SlotType'
 
 /**
  * Add selectedBoon to store if there's any in the query param
  */
 export default defineNuxtRouteMiddleware(async ({ query: toQuery }) => {
   // Grab the necessary functions from the store
-  const { boons, gods } = storeToRefs(useBoonStore())
-  const { getBoonById, addToSelectedBoons, doesBoonMeetPreqs } = useBoonStore()
+  const { boons, gods, slots, weaponCategories, weapons } = storeToRefs(useBoonStore())
+  const { getBoonById, addToSelectedBoons, addSelectedWeapon, doesBoonMeetPreqs } = useBoonStore()
   const { didPageRender } = storeToRefs(useSettingStore())
 
   // Grab all boons and gods
   const { data: allBoons } = await useFetch<BoonType[]>('/api/boons')
   const { data: allGods } = await useFetch<GodType[]>('/api/gods')
+  const { data: allSlots } = await useFetch<SlotType[]>('/api/slots')
+  const { data: allWeaponCategories } = await useFetch<WeaponCategoriesType[]>('/api/weaponCategories')
+  const { data: allWeapons } = await useFetch<WeaponType[]>('/api/weapons')
 
   if (allBoons.value) {
     boons.value = allBoons.value
@@ -25,6 +36,18 @@ export default defineNuxtRouteMiddleware(async ({ query: toQuery }) => {
 
   if (allGods.value) {
     gods.value = allGods.value
+  }
+
+  if (allSlots.value) {
+    slots.value = allSlots.value
+  }
+
+  if (allWeaponCategories.value) {
+    weaponCategories.value = allWeaponCategories.value
+  }
+
+  if (allWeapons.value) {
+    weapons.value = allWeapons.value
   }
 
   // If boons does not exist, throw an error
@@ -44,18 +67,20 @@ export default defineNuxtRouteMiddleware(async ({ query: toQuery }) => {
   }
 
   let boonList: number[]
+  let weaponId: number
 
+  // Grab boons and weapon from url query
+  // If parsing the query fails, setup up default values
   try {
-    // Grab boon list from url query
     boonList = JSON.parse(decodeURIComponent(toQuery?.[QUERY_PARAM_BOONS] as string))
   } catch {
-    // If parsing the boon list in query fails, return
-    return
+    boonList = []
   }
 
-  // If there are no boonList or it's formatted incorrectly, return
-  if (!boonList) {
-    return
+  try {
+    weaponId = JSON.parse(decodeURIComponent(toQuery?.[QUERY_PARAM_WEAPON] as string))
+  } catch {
+    weaponId = -1
   }
 
   // Add the boon in url query param to vuex
@@ -72,8 +97,12 @@ export default defineNuxtRouteMiddleware(async ({ query: toQuery }) => {
 
     // If it can be included, include it
     if (canBeIncluded) {
-      // debugger
       addToSelectedBoons(boonId)
     }
   })
+
+  // Add the weapon in url query param to vuex
+  if (weaponId >= 0) {
+    addSelectedWeapon(weaponId)
+  }
 })

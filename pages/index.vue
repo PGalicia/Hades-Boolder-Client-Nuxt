@@ -2,26 +2,35 @@
 /**
  * Imports
  */
+// Constants
+import { BUY_ME_A_COFFEE_LINK } from '@/constants/BuyMeACoffee'
+
 // Store
 import { useBoonStore } from '@/stores/boons'
 import { useModalStore } from '@/stores/modal'
 
-// Constants
-import { QUERY_PARAM_BOONS } from '@/constants/Settings'
+// Types
+import type { BoonType } from '@/types/BoonType'
+import type { WeaponType } from '@/types/WeaponType'
 
 /**
  * Stores
  */
-const { selectedBoonsIds } = storeToRefs(useBoonStore())
-const { getSelectedBoons, clearSelectedBoonsListIds } = useBoonStore()
-const { isModalActive } = storeToRefs(useModalStore())
-const { openModal } = useModalStore()
+const { selectedBoonsIds, selectedWeaponId, slots } = storeToRefs(useBoonStore())
+const {
+  clearSelectedBoonsListIds,
+  clearSelectedWeaponId,
+  getSelectedWeapon,
+  getSelectedBoonInSpecifiedSlot,
+  getSelectedBoons
+} = useBoonStore()
+const { isModalBuildActive, isModalDeleteActive, selectedBuild } = storeToRefs(useModalStore())
+const { openModalBuild, openModalDelete, closeModalDelete, updateInitiallySelectedTypeToWeapon } = useModalStore()
 
 /**
  * Router
  */
 const router = useRouter()
-const route = useRoute()
 
 /**
  * Setup
@@ -35,15 +44,18 @@ definePageMeta({
 /**
  * Watchers
  */
-watch(isModalActive, (newVal) => {
-  document.body.classList.toggle('overflow-hidden', newVal)
-})
+watch(
+  () => isModalDeleteActive.value || isModalBuildActive.value,
+  (newVal) => {
+    document.body.classList.toggle('overflow-hidden', newVal)
+  }
+)
 
 /**
  * Computed
  */
-const determineIfNoBoonIsSelected = computed(() => {
-  return !isModalActive.value && selectedBoonsIds.value.length > 0
+const determineIfABoonOrWeaponIsOnTheBoard = computed(() => {
+  return selectedBoonsIds.value.length > 0 || selectedWeaponId.value >= 0
 })
 
 /**
@@ -62,17 +74,39 @@ function onClearBuildClick () {
   if (confirm('Are you sure you want to clear your build?')) {
     // Remove build in store
     clearSelectedBoonsListIds()
+    clearSelectedWeaponId()
 
-    // Clear out query boon param
-    const currentQueryParams = {
-      ...route.query,
-      [QUERY_PARAM_BOONS]: null
-    }
-
-    // Push the updated query params
-    router.push({ query: currentQueryParams })
+    // Clear out boon and weapon param in the query
+    router.push({ query: {} })
   }
 }
+
+function handleWeaponPlaceholderClick () {
+  // Update type
+  updateInitiallySelectedTypeToWeapon()
+
+  // Open modal
+  openModalBuild()
+}
+
+function handleBuildCardClick (build: BoonType | WeaponType) {
+  selectedBuild.value = build
+
+  openModalDelete()
+}
+
+function handleModalDeleteClosing () {
+  selectedBuild.value = null
+
+  closeModalDelete()
+}
+
+useHead({
+  title: 'Boon Builder',
+  meta: [
+    { name: 'description', content: 'A web application that allows you to share your builds for Supergiant\'s game: Hades.' }
+  ]
+})
 </script>
 
 <template>
@@ -80,30 +114,102 @@ function onClearBuildClick () {
     <!-- Header -->
     <HeaderMain />
 
-    <!-- Select/Share build -->
-    <div
-      v-if="determineIfNoBoonIsSelected"
-      class="gap-4 flex flex-col mb-4"
-    >
-      <ButtonMain button-text="Select A Boon" @click="openModal" />
-      <ButtonMain button-text="Share build" @click="onShareBuildClick" />
-      <ButtonMain button-text="Clear build" @click="onClearBuildClick" />
+    <!-- Controls -->
+    <!-- @TODO: This might be better as its own component -->
+    <div class="p-6 bg-gray-200 sm:rounded-lg mb-8 flex flex-col sm:flex-row sm:items-center gap-4">
+      <template v-if="determineIfABoonOrWeaponIsOnTheBoard">
+        <div class="font-bold text-lg">
+          Controls:
+        </div>
+        <ButtonMain button-text="Select a Boon" @click="openModalBuild" />
+        <ButtonMain button-text="Share" @click="onShareBuildClick" />
+        <ButtonMain button-text="Clear" @click="onClearBuildClick" />
+      </template>
+      <template v-else>
+        <div class="font-bold text-lg">
+          Plan or share your next crazy build!
+        </div>
+        <ButtonMain button-text="Select A Boon" @click="openModalBuild" />
+      </template>
     </div>
 
-    <!-- Start selecting boons -->
-    <div v-else class="flex justify-center items-center flex-col mt-12">
-      <div class="mb-4">
-        Plan or share your next crazy build!
+    <!-- Build List -->
+    <!-- @TODO: This might be better as its own component -->
+    <div class="flex flex-col h-max gap-8 mb-8">
+      <!-- Key Slots -->
+      <div class="p-6 bg-gray-200 sm:rounded-lg flex flex-col gap-4">
+        <div class="text-2xl font-bold">
+          Key Slots
+        </div>
+
+        <!-- Slots -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Weapon -->
+          <div>
+            <BuildCard
+              v-if="getSelectedWeapon()"
+              :build="getSelectedWeapon()!"
+              @click="handleBuildCardClick(getSelectedWeapon()!)"
+            />
+            <BuildCardPlaceholder
+              v-else
+              text="weapon"
+              @click="handleWeaponPlaceholderClick"
+            />
+          </div>
+          <!-- Slots -->
+          <div
+            v-for="slot in slots"
+            :key="slot.id"
+          >
+            <BuildCard
+              v-if="getSelectedBoonInSpecifiedSlot(slot.id)"
+              :build="getSelectedBoonInSpecifiedSlot(slot.id)!"
+              @click="handleBuildCardClick(getSelectedBoonInSpecifiedSlot(slot.id)!)"
+            />
+            <BuildCardPlaceholder
+              v-else
+              :text="slot.slot"
+              @click="openModalBuild"
+            />
+          </div>
+        </div>
       </div>
-      <ButtonMain button-text="Select A Boon" @click="openModal" />
+
+      <!-- Other Boons -->
+      <div>
+        <div class="p-6 bg-gray-200 sm:rounded-lg flex flex-col gap-4">
+          <div class="text-2xl font-bold">
+            Boons
+          </div>
+
+          <div class="flex flex-col gap-6">
+            <BuildCardPlaceholder
+              v-if="getSelectedBoons().length === 0"
+              text="boon"
+              @click="openModalBuild"
+            />
+            <BoonList
+              v-for="(god, index) in getSelectedBoons()"
+              :key="index"
+              :boons="god.boons"
+            />
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- Boon list -->
-    <div class="w-fit my-0 mx-auto">
-      <BoonList v-for="(god, index) in getSelectedBoons()" :key="index" :boons="god.boons" />
+    <!-- Footer -->
+    <div class="text-center p-4 text-gray-500">
+      @{{ new Date().getFullYear() }} Patrick Galicia &bull; <a class="underline transition-all hover:underline-offset-4" :href="BUY_ME_A_COFFEE_LINK" target="_blank">Buy Me A Coffee</a>
     </div>
 
-    <!-- Modal -->
-    <ModalBoonSelect v-show="isModalActive" />
+    <!-- Modals -->
+    <ModalSelect v-if="isModalBuildActive" />
+    <ModalDelete
+      v-if="selectedBuild"
+      :build="selectedBuild"
+      @close-modal="handleModalDeleteClosing"
+    />
   </div>
 </template>

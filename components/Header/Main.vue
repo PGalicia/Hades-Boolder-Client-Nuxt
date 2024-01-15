@@ -1,14 +1,8 @@
 <template>
-  <div class="flex gap-4 items-center my-4">
-    <h1 class="text-4xl font-bold">
-      Boolder
+  <div class="flex gap-4 justify-between items-center my-4 sm:my-8 mx-4 sm:mx-0">
+    <h1 class="text-4xl font-bold w-8 sm:w-auto">
+      Boon Builder
     </h1>
-
-    <div class="self-end hidden md:block">
-      Boon
-      <span class="c-header-main__cross">&#10006;</span>
-      Builder
-    </div>
 
     <ButtonDonate class="ml-auto" />
   </div>

@@ -6,23 +6,8 @@ import { defineStore } from 'pinia'
 import type { BoonType } from '@/types/BoonType'
 import type { GodType } from '@/types/GodType'
 import type { SelectedBoonsType } from '@/types/SelectedBoonsType'
-
-function _doGodsArrayMatch (arr1: GodType[], arr2: GodType[]): boolean {
-  // Check if the arrays are the same length
-  if (arr1.length !== arr2.length) {
-    return false
-  }
-
-  // Check if all items exist and are in the same order
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i].id !== arr2[i].id) {
-      return false
-    }
-  }
-
-  // Otherwise, return true
-  return true
-};
+import type { WeaponCategoriesType, WeaponType } from '@/types/WeaponType'
+import type { SlotType } from '@/types/SlotType'
 
 // export const useBoonStore = defineStore('boon', async () => {
 export const useBoonStore = defineStore('boon', () => {
@@ -31,7 +16,12 @@ export const useBoonStore = defineStore('boon', () => {
    */
   const boons = ref<BoonType[]>([])
   const gods = ref<GodType[]>([])
+  const slots = ref<SlotType[]>([])
+  // @TODO: At this point, this store is not just boons. It's the 'build' so rename it to that
+  const weapons = ref<WeaponType[]>([])
+  const weaponCategories = ref<WeaponCategoriesType[]>([])
   const selectedBoonsIds = ref<number[]>([])
+  const selectedWeaponId = ref<number>(-1)
 
   /**
    * Actions
@@ -72,6 +62,22 @@ export const useBoonStore = defineStore('boon', () => {
     }
   }
 
+  function addSelectedWeapon (weaponId: number) {
+    selectedWeaponId.value = weaponId
+  }
+
+  function removeABoonInListIds (boonId: number) {
+    selectedBoonsIds.value = selectedBoonsIds.value.filter(id => id !== boonId)
+  }
+
+  function clearSelectedBoonsListIds () {
+    selectedBoonsIds.value = []
+  }
+
+  function clearSelectedWeaponId () {
+    selectedWeaponId.value = -1
+  }
+
   /**
    * Getters
    */
@@ -86,14 +92,16 @@ export const useBoonStore = defineStore('boon', () => {
       const currentBoon = getBoonById(id)
 
       // If currentBoon doesn't exist, then continue to the next iteration
-      if (!currentBoon) {
+      if (!currentBoon || currentBoon.slot) {
         continue
       }
 
-      // Alphabetize gods
-      const currentGods = currentBoon.gods.sort()
       // Check if the god name exists in the array
-      const targetIndex = collection.findIndex(current => _doGodsArrayMatch(currentGods, current.gods.sort()))
+      // If there are two gods for a boon, just input them as under 'duo'
+      const currentGod = currentBoon.gods.length === 2
+        ? 'duo'
+        : currentBoon.gods[0].god
+      const targetIndex = collection.findIndex(current => current.godName.toLowerCase() === currentGod.toLowerCase())
 
       // If not add an object with that gods name
       if (targetIndex >= 0) {
@@ -101,13 +109,17 @@ export const useBoonStore = defineStore('boon', () => {
       // If so add that object in that god object
       } else {
         collection.push({
-          gods: currentGods,
+          godName: capitalizeWord(currentGod),
           boons: [currentBoon]
         })
       }
     }
 
     return collection
+  }
+
+  function getSelectedWeapon (): WeaponType | undefined {
+    return weapons.value.find(({ id }) => id === selectedWeaponId.value)
   }
 
   function getSelectedBoonsUnformatted (): BoonType[] {
@@ -129,10 +141,43 @@ export const useBoonStore = defineStore('boon', () => {
       .filter(boon => !selectedBoonsIds.value.includes(boon.id))
   }
 
+  function getAllUnselectedBoons () {
+    return boons.value
+      .filter(boon => !selectedBoonsIds.value.includes(boon.id))
+  }
+
+  function getUnselectedWeapons (targetWeaponCategoryId: number) {
+    return weapons.value
+      .filter(({ categoryId }) => categoryId === targetWeaponCategoryId)
+      .filter(({ id }) => selectedWeaponId.value !== id)
+  }
+
+  function getAllUnselectedWeapons () {
+    return weapons.value
+      .filter(({ id }) => selectedWeaponId.value !== id)
+  }
+
+  function getWeaponCategoryBasedOnId (categoryId: number) {
+    return weaponCategories.value.find(({ id }) => id === categoryId)
+  }
+
+  function getSelectedBoonInSpecifiedSlot (slotId: number): BoonType | undefined {
+    return getSelectedBoonsUnformatted().find(({ slot = null }) => slot && slot.id === slotId)
+  }
+
   function doesBoonMeetPreqs (currentBoon: BoonType): boolean {
-    // Get currentBoon (boon in param)
+    // Check if the currentBoon' has prereq weapons
+    const prereqWeapons = currentBoon.weaponPrereqs
+
+    // If weaponId is not equal to the selectedWeaponId, return false
+    for (const weaponId of prereqWeapons) {
+      if (selectedWeaponId.value !== weaponId) {
+        return false
+      }
+    }
+
     // Check if the currentBoon' has prereq boons
-    const prereqBoons = currentBoon.prereqs
+    const prereqBoons = currentBoon.boonPrereqs
 
     for (const boonList of prereqBoons) {
       // For each prepreq object, find the required value
@@ -161,20 +206,29 @@ export const useBoonStore = defineStore('boon', () => {
     return selectedBoonsIds.value.includes(boonId)
   }
 
-  function clearSelectedBoonsListIds () {
-    selectedBoonsIds.value = []
-  }
-
   return {
     boons,
     gods,
+    slots,
+    weaponCategories,
+    weapons,
+    getWeaponCategoryBasedOnId,
     selectedBoonsIds,
+    selectedWeaponId,
     addToSelectedBoons,
+    addSelectedWeapon,
+    clearSelectedBoonsListIds,
+    clearSelectedWeaponId,
+    removeABoonInListIds,
     getBoonById,
     getSelectedBoons,
+    getSelectedWeapon,
+    getUnselectedWeapons,
+    getAllUnselectedWeapons,
     getUnselectedBoons,
+    getAllUnselectedBoons,
+    getSelectedBoonInSpecifiedSlot,
     doesBoonMeetPreqs,
-    isBoonIdInSelectedBoonsListIds,
-    clearSelectedBoonsListIds
+    isBoonIdInSelectedBoonsListIds
   }
 })

@@ -14,26 +14,16 @@ const props = defineProps({
     required: true
   }
 })
-
-/**
- * Computed
- */
-const getGodNames = computed(() => {
-  const { gods } = props.boons[0]
-
-  return { godFirst: gods[0], godSecond: gods[1] }
-})
 </script>
 
 <template>
   <div class="c-list-boon w-full">
-    <GodLabel v-bind="getGodNames" />
-    <div class="c-list-boon__list">
-      <BoonCard
+    <GodLabel :gods="props.boons[0].gods" />
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <BuildCard
         v-for="(boon, index) in props.boons"
         :key="index"
-        :boon="boon"
-        class="mb-8"
+        :build="boon"
       />
     </div>
   </div>
