@@ -1,75 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Hader Boon Builder
+_Currently working on v2_
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### Description:
+A web application that allows you to share your builds for Supergiant's game: Hades.
 
-## Setup
+[Check it out](https://www.boonbuilder.com/)
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### How It Works:
+To start off, you click "Select A Boon". From there you can pick what boons you would like. Boons are grouped by gods and you filter out boons based which god is selected on top of the modal. Once you're satisfied with your build, you share it by pressing the share button. This essentially copies the url link.
