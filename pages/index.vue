@@ -3,7 +3,7 @@
  * Imports
  */
 // Constants
-import { BUY_ME_A_COFFEE_LINK } from '@/constants/BuyMeACoffee'
+import { BUY_ME_A_COFFEE_LINK, TRELLO_LINK } from '@/constants/ExternalLinks'
 
 // Store
 import { useBoonStore } from '@/stores/boons'
@@ -126,7 +126,12 @@ useHead({
 
     <!-- Footer -->
     <div class="text-center p-4 text-gray-500">
-      @{{ new Date().getFullYear() }} Patrick Galicia &bull; <a class="underline transition-all hover:underline-offset-4" :href="BUY_ME_A_COFFEE_LINK" target="_blank">Buy Me A Coffee</a>
+      <div class="mb-4">
+        @{{ new Date().getFullYear() }} Patrick Galicia &bull; <a class="underline transition-all hover:underline-offset-4" :href="BUY_ME_A_COFFEE_LINK" target="_blank">Buy Me A Coffee</a>
+      </div>
+      <div class="text-sm">
+        Check out the roadmap <a class="underline transition-all hover:underline-offset-4" :href="TRELLO_LINK" target="_blank">here</a>
+      </div>
     </div>
 
     <!-- Modals -->

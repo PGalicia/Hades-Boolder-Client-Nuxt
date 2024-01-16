@@ -4,7 +4,7 @@
  * Imports
  */
 // Constants
-import { BUY_ME_A_COFFEE_LINK } from '@/constants/BuyMeACoffee'
+import { BUY_ME_A_COFFEE_LINK } from '@/constants/ExternalLinks'
 </script>
 
 <template>
