@@ -83,6 +83,12 @@ export default defineNuxtRouteMiddleware(async ({ query: toQuery }) => {
     weaponId = -1
   }
 
+  // Add the weapon in url query param to vuex
+  // Weapon need to be added first since certain boons rely on selected weapons
+  if (weaponId >= 0) {
+    addSelectedWeapon(weaponId)
+  }
+
   // Add the boon in url query param to vuex
   boonList.forEach((boonId) => {
     const currentBoon = getBoonById(boonId)
@@ -100,9 +106,4 @@ export default defineNuxtRouteMiddleware(async ({ query: toQuery }) => {
       addToSelectedBoons(boonId)
     }
   })
-
-  // Add the weapon in url query param to vuex
-  if (weaponId >= 0) {
-    addSelectedWeapon(weaponId)
-  }
 })

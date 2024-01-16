@@ -40,6 +40,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -84,6 +86,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -128,6 +132,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -160,6 +166,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -206,6 +214,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -250,6 +260,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -290,6 +302,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -330,6 +344,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -370,6 +386,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -422,6 +440,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -475,6 +495,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -528,6 +550,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -585,6 +609,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "required": 1,
@@ -639,6 +665,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "required": 1,
@@ -681,6 +709,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -726,6 +756,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -758,6 +790,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -790,6 +824,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -822,6 +858,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -856,6 +894,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -888,6 +928,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -916,6 +958,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -959,6 +1003,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -987,6 +1033,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1015,6 +1063,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1043,6 +1093,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1086,6 +1138,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "required": 1,
@@ -1128,6 +1182,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1171,6 +1227,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1214,6 +1272,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1253,6 +1313,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1295,6 +1357,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1353,6 +1417,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1385,6 +1451,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1417,6 +1485,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Beowulf",
@@ -1449,6 +1519,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "required": 1,
@@ -1491,6 +1563,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1519,6 +1593,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1547,6 +1623,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1575,6 +1653,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1603,6 +1683,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1631,6 +1713,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "required": 1,
@@ -1673,6 +1757,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Beowulf",
@@ -1708,6 +1794,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1736,6 +1824,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1778,6 +1868,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Requires the Stygian Soul Mirror Ability"
@@ -1808,6 +1900,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1852,6 +1946,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -1898,6 +1994,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1930,6 +2028,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -1962,6 +2062,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Beowulf"
@@ -1996,6 +2098,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -2030,6 +2134,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2062,6 +2168,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2090,6 +2198,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Life Threshold value reduced by Lasting Consequences.",
@@ -2122,6 +2232,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2150,6 +2262,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unsellable"
@@ -2180,6 +2294,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2208,6 +2324,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2250,6 +2368,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2292,6 +2412,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2333,6 +2455,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2373,6 +2497,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2428,6 +2554,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2460,6 +2588,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2492,6 +2622,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Beowulf"
@@ -2526,6 +2658,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -2560,6 +2694,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2592,6 +2728,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2620,6 +2758,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2648,6 +2788,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unsellable",
@@ -2681,6 +2823,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "This boon cannot be upgraded via poms."
@@ -2711,6 +2855,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unsellable"
@@ -2741,6 +2887,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2769,6 +2917,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2814,6 +2964,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2859,6 +3011,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2898,6 +3052,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -2943,6 +3099,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -2975,6 +3133,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3007,6 +3167,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Beowulf"
@@ -3041,6 +3203,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -3075,6 +3239,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3107,6 +3273,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3135,6 +3303,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3163,6 +3333,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3191,6 +3363,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3219,6 +3393,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "required": 1,
@@ -3261,6 +3437,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3303,6 +3481,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3345,6 +3525,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3373,6 +3555,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3401,6 +3585,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3446,6 +3632,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3478,6 +3666,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3510,6 +3700,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unblockable by shield-bearing foes",
@@ -3545,6 +3737,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -3579,6 +3773,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Lucifer"
@@ -3613,6 +3809,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3641,6 +3839,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -3669,6 +3869,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "required": 1,
@@ -3716,6 +3918,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3759,6 +3963,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3802,6 +4008,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3844,6 +4052,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3887,6 +4097,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3931,6 +4143,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -3976,6 +4190,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4008,6 +4224,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4040,6 +4258,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4072,6 +4292,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -4106,6 +4328,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4138,6 +4362,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4166,6 +4392,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4194,6 +4422,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4222,6 +4452,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4250,6 +4482,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4278,6 +4512,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4320,6 +4556,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4362,6 +4600,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4402,6 +4642,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4443,6 +4685,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4487,6 +4731,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4519,6 +4765,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4551,6 +4799,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Beowulf"
@@ -4585,6 +4835,8 @@
       ]
     },
     "weaponPrereqs": [11],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
       "Unique to Aspect of Beowulf"
@@ -4619,6 +4871,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4651,6 +4905,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4679,6 +4935,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4707,6 +4965,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4735,6 +4995,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4763,6 +5025,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [],
     "notes": []
   },
@@ -4791,6 +5055,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4833,6 +5099,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4875,6 +5143,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4917,6 +5187,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -4956,6 +5228,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5014,6 +5288,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5071,6 +5347,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5129,6 +5407,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5192,6 +5472,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5251,6 +5533,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [163],
     "boonPrereqs": [
       {
         "god": {
@@ -5276,7 +5560,9 @@
         ]
       }
     ],
-    "notes": []
+    "notes": [
+      "Cannot be combined with Freezing Vortex"
+    ]
   },
   {
     "id": 142,
@@ -5307,6 +5593,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5370,6 +5658,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5426,6 +5716,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5485,6 +5777,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5540,6 +5834,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5596,6 +5892,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5657,6 +5955,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5720,6 +6020,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5782,6 +6084,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5855,6 +6159,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -5912,6 +6218,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [159],
     "boonPrereqs": [
       {
         "god": {
@@ -5937,7 +6245,9 @@
         ]
       }
     ],
-    "notes": []
+    "notes": [
+      "Cannot be combined with Cold Embrace"
+    ]
   },
   {
     "id": 153,
@@ -5968,6 +6278,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -6024,6 +6336,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -6080,6 +6394,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -6141,6 +6457,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [157],
     "boonPrereqs": [
       {
         "god": {
@@ -6172,7 +6490,9 @@
         ]
       }
     ],
-    "notes": []
+    "notes": [
+      "Cannot be combined with Curse of Drowning"
+    ]
   },
   {
     "id": 157,
@@ -6203,6 +6523,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [14],
+    "invalidBoons": [156],
     "boonPrereqs": [
       {
         "god": {
@@ -6229,7 +6551,10 @@
         ]
       }
     ],
-    "notes": []
+    "notes": [
+      "Cannot be combined with Aspect of Hera",
+      "Cannot be combined with Mirage Shot"
+    ]
   },
   {
     "id": 158,
@@ -6260,6 +6585,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -6323,6 +6650,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [152],
     "boonPrereqs": [
       {
         "god": {
@@ -6348,7 +6677,9 @@
         ]
       }
     ],
-    "notes": []
+    "notes": [
+      "Cannot be combined with Crystal Clarity"
+    ]
   },
   {
     "id": 160,
@@ -6379,6 +6710,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -6442,6 +6775,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -6499,6 +6834,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {
@@ -6558,6 +6895,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [141],
     "boonPrereqs": [
       {
         "god": {
@@ -6584,7 +6923,9 @@
         ]
       }
     ],
-    "notes": []
+    "notes": [
+      "Cannot be combined with Hunting Blades"
+    ]
   },
   {
     "id": 164,
@@ -6615,6 +6956,8 @@
       ]
     },
     "weaponPrereqs": [],
+    "invalidWeapons": [],
+    "invalidBoons": [],
     "boonPrereqs": [
       {
         "god": {

@@ -14,6 +14,8 @@ export type BoonType = {
   description: string,
   stats: StatType,
   weaponPrereqs: number[],
+  invalidWeapons: number[],
   boonPrereqs: BoonPrereqType[],
+  invalidBoons: number[],
   notes: string
 }

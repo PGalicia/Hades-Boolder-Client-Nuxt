@@ -36,10 +36,10 @@ function handleWeaponPlaceholderClick () {
 
 <template>
   <div class="flex flex-col h-max gap-8 mb-8">
-    <!-- Key Slots -->
+    <!-- Cores -->
     <div class="p-6 bg-gray-200 sm:rounded-lg flex flex-col gap-4">
       <div class="text-2xl font-bold">
-        Key Slots
+        Cores
       </div>
 
       <!-- Slots -->

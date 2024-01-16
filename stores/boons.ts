@@ -165,7 +165,7 @@ export const useBoonStore = defineStore('boon', () => {
   }
 
   function doesBoonMeetPreqs (currentBoon: BoonType): boolean {
-    // Check if the currentBoon' has prereq weapons
+    // Check if the currentBoon has prereq weapons
     const prereqWeapons = currentBoon.weaponPrereqs
 
     // If weaponId is not equal to the selectedWeaponId, return false
@@ -173,6 +173,22 @@ export const useBoonStore = defineStore('boon', () => {
       if (selectedWeaponId.value !== weaponId) {
         return false
       }
+    }
+
+    // Check if the currentBoon has invalidWeapons
+    const invalidWeapons = currentBoon.invalidWeapons
+
+    // If the current selectedWeaponId is in invalidWeapons, return false
+    if (invalidWeapons.includes(selectedWeaponId.value)) {
+      return false
+    }
+
+    // Check if the currentBoon has invalidBoons
+    const invalidBoons = currentBoon.invalidBoons
+
+    // If the any current selectedBoonsIds is in invalidBoons, return false
+    if (invalidBoons.some(boonId => selectedBoonsIds.value.includes(boonId))) {
+      return false
     }
 
     // Check if the currentBoon' has prereq boons

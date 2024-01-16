@@ -120,6 +120,24 @@ const isAWeapon = isBuildAWeapon(props.build)
         </ul>
       </div>
     </div>
+
+    <!-- Notes -->
+    <template v-if="isABoon && (props.build as BoonType).notes.length > 0">
+      <div class="text-xs pt-4 font-bold">
+        Notes
+      </div>
+      <ul
+        v-if="isABoon && (props.build as BoonType).notes.length > 0"
+        class="text-xs list-disc pl-10"
+      >
+        <li
+          v-for="(note, index) in (props.build as BoonType).notes"
+          :key="index"
+        >
+          {{ note }}
+        </li>
+      </ul>
+    </template>
   </div>
 </template>
 
