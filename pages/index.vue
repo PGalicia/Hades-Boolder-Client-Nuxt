@@ -16,16 +16,13 @@ import type { WeaponType } from '@/types/WeaponType'
 /**
  * Stores
  */
-const { selectedBoonsIds, selectedWeaponId, slots } = storeToRefs(useBoonStore())
+const { selectedBoonsIds, selectedWeaponId } = storeToRefs(useBoonStore())
 const {
   clearSelectedBoonsListIds,
-  clearSelectedWeaponId,
-  getSelectedWeapon,
-  getSelectedBoonInSpecifiedSlot,
-  getSelectedBoons
+  clearSelectedWeaponId
 } = useBoonStore()
 const { isModalBuildActive, isModalDeleteActive, selectedBuild } = storeToRefs(useModalStore())
-const { openModalBuild, openModalDelete, closeModalDelete, updateInitiallySelectedTypeToWeapon } = useModalStore()
+const { openModalBuild, openModalDelete, closeModalDelete } = useModalStore()
 
 /**
  * Router
@@ -81,14 +78,6 @@ function onClearBuildClick () {
   }
 }
 
-function handleWeaponPlaceholderClick () {
-  // Update type
-  updateInitiallySelectedTypeToWeapon()
-
-  // Open modal
-  openModalBuild()
-}
-
 function handleBuildCardClick (build: BoonType | WeaponType) {
   selectedBuild.value = build
 
@@ -134,70 +123,7 @@ useHead({
     </div>
 
     <!-- Build List -->
-    <!-- @TODO: This might be better as its own component -->
-    <div class="flex flex-col h-max gap-8 mb-8">
-      <!-- Key Slots -->
-      <div class="p-6 bg-gray-200 sm:rounded-lg flex flex-col gap-4">
-        <div class="text-2xl font-bold">
-          Key Slots
-        </div>
-
-        <!-- Slots -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <!-- Weapon -->
-          <div>
-            <BuildCard
-              v-if="getSelectedWeapon()"
-              :build="getSelectedWeapon()!"
-              @click="handleBuildCardClick(getSelectedWeapon()!)"
-            />
-            <BuildCardPlaceholder
-              v-else
-              text="weapon"
-              @click="handleWeaponPlaceholderClick"
-            />
-          </div>
-          <!-- Slots -->
-          <div
-            v-for="slot in slots"
-            :key="slot.id"
-          >
-            <BuildCard
-              v-if="getSelectedBoonInSpecifiedSlot(slot.id)"
-              :build="getSelectedBoonInSpecifiedSlot(slot.id)!"
-              @click="handleBuildCardClick(getSelectedBoonInSpecifiedSlot(slot.id)!)"
-            />
-            <BuildCardPlaceholder
-              v-else
-              :text="slot.slot"
-              @click="openModalBuild"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- Other Boons -->
-      <div>
-        <div class="p-6 bg-gray-200 sm:rounded-lg flex flex-col gap-4">
-          <div class="text-2xl font-bold">
-            Boons
-          </div>
-
-          <div class="flex flex-col gap-6">
-            <BuildCardPlaceholder
-              v-if="getSelectedBoons().length === 0"
-              text="boon"
-              @click="openModalBuild"
-            />
-            <BoonList
-              v-for="(god, index) in getSelectedBoons()"
-              :key="index"
-              :boons="god.boons"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
+    <BuildList @build-click="handleBuildCardClick" />
 
     <!-- Footer -->
     <div class="text-center p-4 text-gray-500">
