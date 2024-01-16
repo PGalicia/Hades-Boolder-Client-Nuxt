@@ -10,8 +10,7 @@ import { useBoonStore } from '@/stores/boons'
 import { useModalStore } from '@/stores/modal'
 
 // Types
-import type { BoonType } from '@/types/BoonType'
-import type { WeaponType } from '@/types/WeaponType'
+import type { BuildType } from '@/types/BuildType'
 
 /**
  * Stores
@@ -78,7 +77,7 @@ function onClearBuildClick () {
   }
 }
 
-function handleBuildCardClick (build: BoonType | WeaponType) {
+function handleBuildCardClick (build: BuildType) {
   selectedBuild.value = build
 
   openModalDelete()

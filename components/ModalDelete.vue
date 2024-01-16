@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="ts" generic="T extends BuildType">
 /**
  * Imports
  */
@@ -9,8 +9,7 @@ import { QUERY_PARAM_WEAPON, QUERY_PARAM_BOONS } from '@/constants/Settings'
 import { useBoonStore } from '@/stores/boons'
 
 // Types
-import type { BoonType } from '@/types/BoonType'
-import type { WeaponType } from '@/types/WeaponType'
+import type { BuildType } from '@/types/BuildType'
 
 /**
  * Constants
@@ -21,12 +20,9 @@ const route = useRoute()
 /**
  * Props
  */
-const props = defineProps({
-  build: {
-    type: Object as PropType<BoonType | WeaponType>,
-    required: true
-  }
-})
+const props = defineProps<{
+  build: T
+}>()
 
 /**
  * Emits
@@ -38,18 +34,10 @@ const emit = defineEmits(['closeModal'])
  */
 const { clearSelectedWeaponId, removeABoonInListIds } = useBoonStore()
 
-function isBuildABoon () {
-  return props.build.type === 'boon'
-}
-
-function isBuildAWeapon () {
-  return !isBuildABoon()
-}
-
 function onDeleteButtonPress () {
   const currentQueryParams = { ...route.query }
 
-  if (isBuildAWeapon()) {
+  if (isBuildAWeapon(props.build)) {
     // Delete weapon
     delete currentQueryParams[QUERY_PARAM_WEAPON]
 

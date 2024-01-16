@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="ts" generic="T extends BuildType">
 /**
  * Imports
  */
@@ -6,6 +6,7 @@
 import { useBoonStore } from '@/stores/boons'
 
 // Type
+import type { BuildType } from '@/types/BuildType'
 import type { BoonType } from '@/types/BoonType'
 import type { WeaponType } from '@/types/WeaponType'
 
@@ -17,20 +18,15 @@ const { getWeaponCategoryBasedOnId, getBoonById, isBoonIdInSelectedBoonsListIds 
 /**
  * Props
  */
-const props = defineProps({
-  build: {
-    type: Object as PropType<BoonType | WeaponType>,
-    required: true
-  }
-})
+const props = defineProps<{
+  build: T
+}>()
 
-function isBuildABoon () {
-  return props.build.type === 'boon'
-}
-
-function isBuildAWeapon () {
-  return !isBuildABoon()
-}
+/**
+ * Constants
+ */
+const isABoon = isBuildABoon(props.build)
+const isAWeapon = isBuildAWeapon(props.build)
 </script>
 
 <template>
@@ -44,13 +40,13 @@ function isBuildAWeapon () {
 
       <!-- Slot/Weapon -->
       <div
-        v-if="isBuildABoon() && (props.build as BoonType).slot"
+        v-if="isABoon && (props.build as BoonType).slot"
         class="text-xs ml-auto"
       >
         {{ (props.build as BoonType).slot!.slot.toUpperCase() }}
       </div>
       <div
-        v-else-if="isBuildAWeapon() && getWeaponCategoryBasedOnId((props.build as WeaponType).categoryId)"
+        v-else-if="isAWeapon && getWeaponCategoryBasedOnId((props.build as WeaponType).categoryId)"
         class="text-xs ml-auto"
       >
         {{ getWeaponCategoryBasedOnId((props.build as WeaponType).categoryId)!.type.toUpperCase() }}
@@ -59,7 +55,7 @@ function isBuildAWeapon () {
 
     <!-- Subtext -->
     <div
-      v-if="isBuildABoon()"
+      v-if="isABoon"
       class="text-xs ml-auto"
     >
       <span>{{ capitalizeWord((props.build as BoonType).gods[0].god) }}</span>
@@ -78,8 +74,8 @@ function isBuildAWeapon () {
     <div
       class="w-3 h-full absolute top-0 left-0 bg-accentCommon border-r-2 border-solid border-black"
       :class="{
-        'bg-accentLegendary': isBuildABoon() && (props.build as BoonType).rarity.rarity === 'legendary',
-        'bg-accentDuo': isBuildABoon() && (props.build as BoonType).rarity.rarity === 'duo',
+        'bg-accentLegendary': isABoon && (props.build as BoonType).rarity.rarity === 'legendary',
+        'bg-accentDuo': isABoon && (props.build as BoonType).rarity.rarity === 'duo',
       }"
     />
 
@@ -94,7 +90,7 @@ function isBuildAWeapon () {
 
     <!-- Boon Prereqs -->
     <div
-      v-if="isBuildABoon() && (props.build as BoonType).boonPrereqs.length > 0"
+      v-if="isABoon && (props.build as BoonType).boonPrereqs.length > 0"
       class="grid-cols-2 text-sm grid mt-2 gap-x-0 gap-y-4 pt-4 px-0"
     >
       <div

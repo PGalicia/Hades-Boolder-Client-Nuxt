@@ -5,8 +5,7 @@
 import { FILTER_TYPE_BOONS, FILTER_TYPE_WEAPONS } from '@/constants/FilterType'
 
 // Types
-import type { BoonType } from '@/types/BoonType'
-import type { WeaponType } from '@/types/WeaponType'
+import type { BuildType } from '@/types/BuildType'
 
 export const useModalStore = defineStore('modal', () => {
   /**
@@ -15,9 +14,7 @@ export const useModalStore = defineStore('modal', () => {
   const isModalBuildActive = ref(false)
   const isModalDeleteActive = ref(false)
   const initiallySelectedType = ref<string>(FILTER_TYPE_BOONS)
-  // @TODO: There's a crap top of places where I have 'BoonType | WeaponType'. I really need to update this
-  // or combine the types
-  const selectedBuild = ref<BoonType | WeaponType | null>(null)
+  const selectedBuild = ref<BuildType | null>(null)
 
   /**
    * Getters

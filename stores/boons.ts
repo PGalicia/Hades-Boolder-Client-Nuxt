@@ -9,7 +9,6 @@ import type { SelectedBoonsType } from '@/types/SelectedBoonsType'
 import type { WeaponCategoriesType, WeaponType } from '@/types/WeaponType'
 import type { SlotType } from '@/types/SlotType'
 
-// export const useBoonStore = defineStore('boon', async () => {
 export const useBoonStore = defineStore('boon', () => {
   /**
    * State
