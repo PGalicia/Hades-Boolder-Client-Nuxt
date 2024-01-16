@@ -30,6 +30,7 @@ const {
   getAllUnselectedWeapons,
   getAllUnselectedBoons,
   doesBoonMeetPreqs,
+  doesWeaponMeetPrereqs,
   addSelectedWeapon
 } = useBoonStore()
 const { initiallySelectedType } = storeToRefs(useModalStore())
@@ -116,6 +117,11 @@ function handleBoonAddition () {
 }
 
 function handleWeaponSelection (weaponId: number) {
+  // If chosen weapon doesn't meet the requirement then prevent click from happening
+  if (!doesWeaponMeetPrereqs(weaponId)) {
+    return
+  }
+
   // Add selected weapon
   addSelectedWeapon(weaponId)
 
@@ -225,6 +231,9 @@ function getWeaponFilters () {
           v-for="(weapon, index) in getCurrentWeaponCategories()"
           :key="index"
           class="c-modal-select__boon cursor-pointer relative"
+          :class="{
+            'c-modal-select__boon--disabled': !doesWeaponMeetPrereqs(weapon.id)
+          }"
           @click="handleWeaponSelection(weapon.id)"
         >
           <BuildCard :build="weapon" />

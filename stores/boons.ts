@@ -217,6 +217,23 @@ export const useBoonStore = defineStore('boon', () => {
     return true
   }
 
+  function doesWeaponMeetPrereqs (weaponId: number) {
+    for (const boonId of selectedBoonsIds.value) {
+      // Current boon
+      const currentBoon = getBoonById(boonId)
+
+      // List of invalid weapons
+      const invalidWeapons = currentBoon?.invalidWeapons || []
+
+      // If currentWeapon is in invalidWeapons list, return false
+      if (invalidWeapons?.includes(weaponId)) {
+        return false
+      }
+    }
+
+    return true
+  }
+
   function isBoonIdInSelectedBoonsListIds (boonId: number): boolean {
     return selectedBoonsIds.value.includes(boonId)
   }
@@ -244,6 +261,7 @@ export const useBoonStore = defineStore('boon', () => {
     getAllUnselectedBoons,
     getSelectedBoonInSpecifiedSlot,
     doesBoonMeetPreqs,
+    doesWeaponMeetPrereqs,
     isBoonIdInSelectedBoonsListIds
   }
 })

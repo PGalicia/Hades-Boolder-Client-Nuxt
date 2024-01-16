@@ -1485,7 +1485,7 @@
       ]
     },
     "weaponPrereqs": [],
-    "invalidWeapons": [],
+    "invalidWeapons": [11, 14],
     "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
@@ -1757,8 +1757,8 @@
       ]
     },
     "weaponPrereqs": [],
-    "invalidWeapons": [],
-    "invalidBoons": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [50, 65, 157, 109],
     "boonPrereqs": [],
     "notes": [
       "Cannot be combined with Aspect of Beowulf",
@@ -3773,7 +3773,7 @@
       ]
     },
     "weaponPrereqs": [],
-    "invalidWeapons": [],
+    "invalidWeapons": [23],
     "invalidBoons": [],
     "boonPrereqs": [],
     "notes": [
@@ -3869,8 +3869,8 @@
       ]
     },
     "weaponPrereqs": [],
-    "invalidWeapons": [],
-    "invalidBoons": [],
+    "invalidWeapons": [11],
+    "invalidBoons": [50, 65, 109],
     "boonPrereqs": [
       {
         "required": 1,
@@ -5892,7 +5892,7 @@
       ]
     },
     "weaponPrereqs": [],
-    "invalidWeapons": [],
+    "invalidWeapons": [11],
     "invalidBoons": [],
     "boonPrereqs": [
       {
@@ -5924,7 +5924,9 @@
         ]
       }
     ],
-    "notes": []
+    "notes": [
+      "Cannot be combined with Aspect of Beowulf"
+    ]
   },
   {
     "id": 148,
